@@ -1,0 +1,239 @@
+                 U abort@GLIBC_2.2.5
+                 U __cxa_allocate_exception@CXXABI_1.3
+                 U __cxa_atexit@GLIBC_2.2.5
+                 U __cxa_begin_catch@CXXABI_1.3
+                 U __cxa_end_catch@CXXABI_1.3
+                 w __cxa_finalize@GLIBC_2.2.5
+                 U __cxa_free_exception@CXXABI_1.3
+                 U __cxa_guard_abort@CXXABI_1.3
+                 U __cxa_guard_acquire@CXXABI_1.3
+                 U __cxa_guard_release@CXXABI_1.3
+                 w __cxa_pure_virtual@CXXABI_1.3
+                 U __cxa_rethrow@CXXABI_1.3
+                 U __cxa_throw@CXXABI_1.3
+                 U __cxa_throw_bad_array_new_length@CXXABI_1.3.8
+                 U dladdr@GLIBC_2.34
+                 U dlclose@GLIBC_2.34
+                 U dlerror@GLIBC_2.34
+                 U dlopen@GLIBC_2.34
+                 U dlsym@GLIBC_2.34
+                 U __errno_location@GLIBC_2.2.5
+                 U fflush@GLIBC_2.2.5
+                 U __fprintf_chk@GLIBC_2.3.4
+                 U free@GLIBC_2.2.5
+                 U fwrite@GLIBC_2.2.5
+                 U __gcc_personality_v0@GCC_3.3.1
+                 U getcontext@GLIBC_2.2.5
+                 U getcwd@GLIBC_2.2.5
+                 U getenv@GLIBC_2.2.5
+                 U getpid@GLIBC_2.2.5
+                 w __gmon_start__
+                 U __gxx_personality_v0@CXXABI_1.3
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+                 U makecontext@GLIBC_2.2.5
+                 U malloc@GLIBC_2.2.5
+                 U memalign@GLIBC_2.2.5
+                 U memcmp@GLIBC_2.2.5
+                 U memcpy@GLIBC_2.14
+                 U memmove@GLIBC_2.2.5
+                 U memset@GLIBC_2.2.5
+                 U mmap@GLIBC_2.2.5
+                 U mprotect@GLIBC_2.2.5
+                 U munmap@GLIBC_2.2.5
+                 U nanosleep@GLIBC_2.2.5
+                 U __once_proxy@GLIBCXX_3.4.11
+                 U pthread_attr_destroy@GLIBC_2.2.5
+                 U pthread_attr_getstack@GLIBC_2.34
+                 U pthread_attr_init@GLIBC_2.2.5
+                 U pthread_attr_setstacksize@GLIBC_2.34
+                 U pthread_create@GLIBC_2.34
+                 U pthread_detach@GLIBC_2.34
+                 U pthread_getattr_np@GLIBC_2.32
+                 U pthread_getspecific@GLIBC_2.34
+                 U pthread_join@GLIBC_2.34
+                 U pthread_key_create@GLIBC_2.34
+                 U pthread_key_delete@GLIBC_2.34
+                 w pthread_mutexattr_destroy@GLIBC_2.34
+                 w pthread_mutexattr_init@GLIBC_2.34
+                 w pthread_mutexattr_settype@GLIBC_2.34
+                 w pthread_mutex_destroy@GLIBC_2.2.5
+                 w pthread_mutex_init@GLIBC_2.2.5
+                 w pthread_mutex_lock@GLIBC_2.2.5
+                 w pthread_mutex_unlock@GLIBC_2.2.5
+                 U pthread_once@GLIBC_2.34
+                 U pthread_self@GLIBC_2.2.5
+                 U pthread_setspecific@GLIBC_2.34
+                 w __RML_close_factory
+                 w __RML_open_factory
+                 w scalable_aligned_free
+                 w scalable_aligned_malloc
+                 w scalable_free
+                 w scalable_malloc
+                 U sched_getaffinity@GLIBC_2.3.4
+                 U sched_setaffinity@GLIBC_2.3.4
+                 U sched_yield@GLIBC_2.2.5
+                 U __stack_chk_fail@GLIBC_2.4
+                 U stderr@GLIBC_2.2.5
+                 U strcmp@GLIBC_2.2.5
+                 U strerror@GLIBC_2.2.5
+                 U strlen@GLIBC_2.2.5
+                 U __strncat_chk@GLIBC_2.3.4
+                 U strncpy@GLIBC_2.2.5
+                 U __strncpy_chk@GLIBC_2.3.4
+                 U strrchr@GLIBC_2.2.5
+                 U strspn@GLIBC_2.2.5
+                 U swapcontext@GLIBC_2.2.5
+                 U syscall@GLIBC_2.2.5
+                 U sysconf@GLIBC_2.2.5
+                 w __TBB_call_with_my_server_info
+                 w __TBB_internal_allocate_binding_handler
+                 w __TBB_internal_apply_affinity
+                 w __TBB_internal_deallocate_binding_handler
+                 w __TBB_internal_destroy_system_topology
+                 w __TBB_internal_get_default_concurrency
+                 w __TBB_internal_initialize_system_topology
+                 w __TBB_internal_restore_affinity
+                 w __TBB_make_rml_server
+0000000000024600 T TBB_runtime_interface_version
+0000000000024610 T TBB_runtime_version
+                 U __tls_get_addr@GLIBC_2.3
+                 U _Unwind_Resume@GCC_3.0
+                 U __vsnprintf_chk@GLIBC_2.3.4
+                 U operator delete[](void*)@GLIBCXX_3.4
+                 U operator delete(void*)@GLIBCXX_3.4
+0000000000025990 T tbb::detail::r1::deallocate(tbb::detail::d1::small_object_pool&, void*, unsigned long)
+0000000000025950 T tbb::detail::r1::deallocate(tbb::detail::d1::small_object_pool&, void*, unsigned long, tbb::detail::d1::execution_data const&)
+0000000000015340 T tbb::detail::r1::initialize(tbb::detail::d1::task_arena_base&)
+000000000002ad90 T tbb::detail::r1::initialize(tbb::detail::d1::task_group_context&)
+0000000000024880 T tbb::detail::r1::try_acquire(tbb::detail::d1::queuing_rw_mutex&, tbb::detail::d1::queuing_rw_mutex::scoped_lock&, bool)
+000000000001f110 T tbb::detail::r1::try_acquire(tbb::detail::d1::rtm_mutex&, tbb::detail::d1::rtm_mutex::scoped_lock&)
+000000000001ee10 T tbb::detail::r1::itt_task_end(tbb::detail::d1::itt_domain_enum)
+0000000000023e30 T tbb::detail::r1::acquire_reader(tbb::detail::d1::rtm_rw_mutex&, tbb::detail::d1::rtm_rw_mutex::scoped_lock&, bool)
+000000000001f340 T tbb::detail::r1::acquire_writer(tbb::detail::d1::rtm_rw_mutex&, tbb::detail::d1::rtm_rw_mutex::scoped_lock&, bool)
+00000000000244e0 T tbb::detail::r1::execution_slot(tbb::detail::d1::execution_data const*)
+000000000001ef50 T tbb::detail::r1::itt_region_end(tbb::detail::d1::itt_domain_enum, void*, unsigned long long)
+000000000001ed00 T tbb::detail::r1::itt_task_begin(tbb::detail::d1::itt_domain_enum, void*, unsigned long long, void*, unsigned long long, tbb::detail::d0::string_resource_index)
+0000000000024320 T tbb::detail::r1::notify_waiters(unsigned long)
+0000000000012ba0 T tbb::detail::r1::allocate_memory(unsigned long)
+000000000000fe90 T tbb::detail::r1::cache_line_size()
+000000000001e890 T tbb::detail::r1::call_itt_notify(int, void*)
+0000000000011310 T tbb::detail::r1::core_type_count(long)
+000000000001e860 T tbb::detail::r1::create_itt_sync(void*, char const*, char const*)
+0000000000024520 T tbb::detail::r1::current_context()
+0000000000011680 T tbb::detail::r1::max_concurrency(tbb::detail::d1::task_arena_base const*)
+0000000000011240 T tbb::detail::r1::numa_node_count()
+0000000000011a00 T tbb::detail::r1::throw_exception(tbb::detail::d0::exception_id)
+0000000000011b80 T tbb::detail::r1::wait_on_address(void*, tbb::detail::d1::delegate_base&, unsigned long)
+000000000002a0c0 T tbb::detail::r1::execute_and_wait(tbb::detail::d1::task&, tbb::detail::d1::task_group_context&, tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&)
+000000000001ee70 T tbb::detail::r1::itt_region_begin(tbb::detail::d1::itt_domain_enum, void*, unsigned long long, void*, unsigned long long, tbb::detail::d0::string_resource_index)
+000000000001ec30 T tbb::detail::r1::itt_relation_add(tbb::detail::d1::itt_domain_enum, void*, unsigned long long, tbb::detail::d0::itt_relation, void*, unsigned long long)
+000000000001a1e0 T tbb::detail::r1::set_end_of_input(tbb::detail::d1::base_filter&)
+0000000000018f40 T tbb::detail::r1::assertion_failure(char const*, int, char const*, char const*)
+000000000000feb0 T tbb::detail::r1::deallocate_memory(void*)
+0000000000011260 T tbb::detail::r1::fill_numa_indices(int*)
+000000000000fed0 T tbb::detail::r1::is_tbbmalloc_used()
+000000000001e900 T tbb::detail::r1::itt_set_sync_name(void*, char const*)
+000000000000f810 T tbb::detail::r1::notify_by_address(void*, unsigned long)
+0000000000022980 T tbb::detail::r1::parallel_pipeline(tbb::detail::d1::task_group_context&, unsigned long, tbb::detail::d1::filter_node const&)
+0000000000024c30 T tbb::detail::r1::upgrade_to_writer(tbb::detail::d1::queuing_rw_mutex::scoped_lock&)
+0000000000024200 T tbb::detail::r1::try_acquire_reader(tbb::detail::d1::rtm_rw_mutex&, tbb::detail::d1::rtm_rw_mutex::scoped_lock&)
+0000000000024190 T tbb::detail::r1::try_acquire_writer(tbb::detail::d1::rtm_rw_mutex&, tbb::detail::d1::rtm_rw_mutex::scoped_lock&)
+00000000000245d0 T tbb::detail::r1::capture_fp_settings(tbb::detail::d1::task_group_context&)
+0000000000024fd0 T tbb::detail::r1::downgrade_to_reader(tbb::detail::d1::queuing_rw_mutex::scoped_lock&)
+000000000001e920 T tbb::detail::r1::itt_make_task_group(tbb::detail::d1::itt_domain_enum, void*, unsigned long long, void*, unsigned long long, tbb::detail::d0::string_resource_index)
+0000000000016190 T tbb::detail::r1::isolate_within_arena(tbb::detail::d1::delegate_base&, long)
+000000000001eb70 T tbb::detail::r1::itt_metadata_ptr_add(tbb::detail::d1::itt_domain_enum, void*, unsigned long long, tbb::detail::d0::string_resource_index, void*)
+000000000001ea90 T tbb::detail::r1::itt_metadata_str_add(tbb::detail::d1::itt_domain_enum, void*, unsigned long long, tbb::detail::d0::string_resource_index, char const*)
+00000000000267c0 T tbb::detail::r1::current_suspend_point()
+000000000000fb90 T tbb::detail::r1::notify_by_address_all(void*)
+000000000000fa00 T tbb::detail::r1::notify_by_address_one(void*)
+00000000000128e0 T tbb::detail::r1::cache_aligned_allocate(unsigned long)
+0000000000026b40 T tbb::detail::r1::cancel_group_execution(tbb::detail::d1::task_group_context&)
+0000000000011330 T tbb::detail::r1::fill_core_type_indices(int*, long)
+000000000000fea0 T tbb::detail::r1::cache_aligned_deallocate(void*)
+0000000000011290 T tbb::detail::r1::numa_default_concurrency(int)
+0000000000012b40 T tbb::detail::r1::allocate_bounded_queue_rep(unsigned long)
+0000000000013000 T tbb::detail::r1::wait_bounded_queue_monitor(tbb::detail::r1::concurrent_monitor*, unsigned long, long, tbb::detail::d1::delegate_base&)
+0000000000011990 T tbb::detail::r1::global_control_active_value(int)
+0000000000011020 T tbb::detail::r1::abort_bounded_queue_monitors(tbb::detail::r1::concurrent_monitor*)
+0000000000011360 T tbb::detail::r1::constraints_threads_per_core(tbb::detail::d1::constraints const&, long)
+0000000000010fe0 T tbb::detail::r1::deallocate_bounded_queue_rep(unsigned char*, unsigned long)
+00000000000245c0 T tbb::detail::r1::is_group_execution_cancelled(tbb::detail::d1::task_group_context&)
+0000000000011050 T tbb::detail::r1::notify_bounded_queue_monitor(tbb::detail::r1::concurrent_monitor*, unsigned long, unsigned long)
+00000000000114d0 T tbb::detail::r1::constraints_default_concurrency(tbb::detail::d1::constraints const&, long)
+0000000000012e90 T tbb::detail::r1::get(tbb::detail::d1::task_scheduler_handle&)
+000000000002a0e0 T tbb::detail::r1::wait(tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&)
+0000000000015560 T tbb::detail::r1::wait(tbb::detail::d1::task_arena_base&)
+000000000002b660 T tbb::detail::r1::reset(tbb::detail::d1::task_group_context&)
+00000000000278d0 T tbb::detail::r1::spawn(tbb::detail::d1::task&, tbb::detail::d1::task_group_context&)
+00000000000279a0 T tbb::detail::r1::spawn(tbb::detail::d1::task&, tbb::detail::d1::task_group_context&, unsigned short)
+0000000000010460 T tbb::detail::r1::attach(tbb::detail::d1::task_arena_base&)
+0000000000012be0 T tbb::detail::r1::create(tbb::detail::d1::global_control&)
+0000000000025cd0 T tbb::detail::r1::resume(tbb::detail::r1::suspend_point_type*)
+0000000000027ba0 T tbb::detail::r1::submit(tbb::detail::d1::task&, tbb::detail::d1::task_group_context&, tbb::detail::r1::arena*, unsigned long)
+0000000000024620 T tbb::detail::r1::acquire(tbb::detail::d1::queuing_rw_mutex&, tbb::detail::d1::queuing_rw_mutex::scoped_lock&, bool)
+000000000001efe0 T tbb::detail::r1::acquire(tbb::detail::d1::rtm_mutex&, tbb::detail::d1::rtm_mutex::scoped_lock&, bool)
+0000000000011760 T tbb::detail::r1::destroy(tbb::detail::d1::global_control&)
+000000000002b590 T tbb::detail::r1::destroy(tbb::detail::d1::task_group_context&)
+0000000000015790 T tbb::detail::r1::enqueue(tbb::detail::d1::task&, tbb::detail::d1::task_arena_base*)
+00000000000157a0 T tbb::detail::r1::enqueue(tbb::detail::d1::task&, tbb::detail::d1::task_group_context&, tbb::detail::d1::task_arena_base*)
+0000000000016180 T tbb::detail::r1::execute(tbb::detail::d1::task_arena_base&, tbb::detail::d1::delegate_base&)
+000000000001fdc0 T tbb::detail::r1::observe(tbb::detail::d1::task_scheduler_observer&, bool)
+00000000000242b0 T tbb::detail::r1::release(tbb::detail::d1::rtm_rw_mutex::scoped_lock&)
+00000000000248f0 T tbb::detail::r1::release(tbb::detail::d1::queuing_rw_mutex::scoped_lock&)
+000000000001f1a0 T tbb::detail::r1::release(tbb::detail::d1::rtm_mutex::scoped_lock&)
+0000000000026a00 T tbb::detail::r1::suspend(void (*)(void*, tbb::detail::r1::suspend_point_type*), void*)
+0000000000023f80 T tbb::detail::r1::upgrade(tbb::detail::d1::rtm_rw_mutex::scoped_lock&)
+0000000000025700 T tbb::detail::r1::allocate(tbb::detail::d1::small_object_pool*&, unsigned long)
+00000000000257c0 T tbb::detail::r1::allocate(tbb::detail::d1::small_object_pool*&, unsigned long, tbb::detail::d1::execution_data const&)
+0000000000013490 T tbb::detail::r1::finalize(tbb::detail::d1::task_scheduler_handle&, long)
+00000000000250b0 T tbb::detail::r1::construct(tbb::detail::d1::queuing_rw_mutex&)
+0000000000024140 T tbb::detail::r1::downgrade(tbb::detail::d1::rtm_rw_mutex::scoped_lock&)
+0000000000024fc0 T tbb::detail::r1::is_writer(tbb::detail::d1::queuing_rw_mutex::scoped_lock const&)
+00000000000103b0 T tbb::detail::r1::terminate(tbb::detail::d1::task_arena_base&)
+                 U operator new[](unsigned long)@GLIBCXX_3.4
+                 U std::runtime_error::what() const@GLIBCXX_3.4
+                 U std::length_error::length_error(char const*)@GLIBCXX_3.4.21
+                 U std::length_error::~length_error()@GLIBCXX_3.4
+                 U std::out_of_range::out_of_range(char const*)@GLIBCXX_3.4.21
+                 U std::out_of_range::~out_of_range()@GLIBCXX_3.4
+                 U std::runtime_error::runtime_error(char const*)@GLIBCXX_3.4.21
+                 U std::runtime_error::runtime_error(char const*)@GLIBCXX_3.4.21
+                 U std::runtime_error::~runtime_error()@GLIBCXX_3.4
+                 U std::runtime_error::~runtime_error()@GLIBCXX_3.4
+                 U std::__exception_ptr::exception_ptr::_M_release()@CXXABI_1.3.13
+                 U std::__exception_ptr::exception_ptr::_M_addref()@CXXABI_1.3.13
+                 U std::invalid_argument::invalid_argument(char const*)@GLIBCXX_3.4.21
+                 U std::invalid_argument::~invalid_argument()@GLIBCXX_3.4
+                 U std::bad_alloc::~bad_alloc()@GLIBCXX_3.4
+                 U std::bad_alloc::~bad_alloc()@GLIBCXX_3.4
+                 U std::exception::~exception()@GLIBCXX_3.4
+                 U operator new(unsigned long)@GLIBCXX_3.4
+                 U std::__once_call@GLIBCXX_3.4.11
+                 U std::__once_callable@GLIBCXX_3.4.11
+                 U std::current_exception()@CXXABI_1.3.3
+                 U std::rethrow_exception(std::__exception_ptr::exception_ptr)@CXXABI_1.3.3
+                 U std::_Rb_tree_decrement(std::_Rb_tree_node_base*)@GLIBCXX_3.4
+                 U std::__throw_length_error(char const*)@GLIBCXX_3.4
+                 U std::__throw_system_error(int)@GLIBCXX_3.4.11
+                 U std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@GLIBCXX_3.4
+                 U std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@GLIBCXX_3.4
+                 U std::terminate()@GLIBCXX_3.4
+00000000000382b8 D typeinfo for tbb::detail::r1::user_abort
+0000000000038288 D typeinfo for tbb::detail::r1::unsafe_wait
+00000000000382a0 D typeinfo for tbb::detail::r1::missing_wait
+00000000000382d0 D typeinfo for tbb::detail::r1::bad_last_alloc
+                 U typeinfo for std::length_error@GLIBCXX_3.4
+                 U typeinfo for std::out_of_range@GLIBCXX_3.4
+                 U typeinfo for std::runtime_error@GLIBCXX_3.4
+                 U typeinfo for std::invalid_argument@GLIBCXX_3.4
+                 U typeinfo for std::bad_alloc@GLIBCXX_3.4
+                 U typeinfo for std::exception@GLIBCXX_3.4
+                 U vtable for __cxxabiv1::__class_type_info@CXXABI_1.3
+                 U vtable for __cxxabiv1::__si_class_type_info@CXXABI_1.3
+                 U vtable for __cxxabiv1::__vmi_class_type_info@CXXABI_1.3
+0000000000038598 D vtable for tbb::detail::r1::user_abort
+00000000000385c0 D vtable for tbb::detail::r1::missing_wait
+0000000000038570 D vtable for tbb::detail::r1::bad_last_alloc
+                 U vtable for std::bad_alloc@GLIBCXX_3.4

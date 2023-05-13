@@ -1,0 +1,1338 @@
+
+/usr/local/lib/libtbb.so:     file format elf64-x86-64
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000              
+000000000000d5e0 l     F .text	0000000000000009              _ZN3tbb6detail2r1L28std_cache_aligned_deallocateEPv
+000000000000d5f0 l     F .text	0000000000000027              _ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIPFvvEJEEvRS_OT_DpOT0_EUlvE_EERS6_ENUlvE_4_FUNEv
+000000000000d630 l     F .text	0000000000000009              _ZN3tbb6detail2r111resume_node4initEv
+000000000000d640 l     F .text	0000000000000005              _ZN3tbb6detail2d123task_scheduler_observer18on_scheduler_entryEb
+000000000000d640 l     F .text	0000000000000005              _ZN3tbb6detail2d123task_scheduler_observer17on_scheduler_exitEb
+000000000000d680 l     F .text	000000000000000c              _ZNK3tbb6detail2r114bad_last_alloc4whatEv
+000000000000d690 l     F .text	000000000000000c              _ZNK3tbb6detail2r110user_abort4whatEv
+000000000000d6a0 l     F .text	000000000000000c              _ZNK3tbb6detail2r112missing_wait4whatEv
+000000000000d6c0 l     F .text	0000000000000007              _ZN3tbb6detail2r1L30dummy_allocate_binding_handlerEiiii
+000000000000d6d0 l     F .text	0000000000000005              _ZN3tbb6detail2r1L32dummy_deallocate_binding_handlerEPNS1_15binding_handlerE
+000000000000d6e0 l     F .text	0000000000000005              _ZN3tbb6detail2r1L20dummy_apply_affinityEPNS1_15binding_handlerEi
+000000000000d6f0 l     F .text	0000000000000005              _ZN3tbb6detail2r1L22dummy_restore_affinityEPNS1_15binding_handlerEi
+000000000000d700 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_ED2Ev
+000000000000d700 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_ED1Ev
+000000000000d7d0 l     F .text	0000000000000073              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEED2Ev
+0000000000037e30 l     O .data.rel.ro	0000000000000040              _ZTVN3tbb6detail2r110sleep_nodeINS1_15address_contextEEE
+000000000000d7d0 l     F .text	0000000000000073              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEED1Ev
+000000000000d850 l     F .text	0000000000000060              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEE5resetEv
+000000000000d8f0 l     F .text	0000000000000073              _ZN3tbb6detail2r110sleep_nodeImED2Ev
+0000000000037d20 l     O .data.rel.ro	0000000000000040              _ZTVN3tbb6detail2r110sleep_nodeImEE
+000000000000d8f0 l     F .text	0000000000000073              _ZN3tbb6detail2r110sleep_nodeImED1Ev
+000000000000da10 l     F .text	0000000000000060              _ZN3tbb6detail2r110sleep_nodeImE5resetEv
+000000000000da70 l     F .text	000000000000003f              _ZN3tbb6detail2r110sleep_nodeImE6notifyEv
+000000000000dab0 l     F .text	0000000000000067              _ZN3tbb6detail2r111resume_nodeD2Ev
+0000000000037df0 l     O .data.rel.ro	0000000000000040              _ZTVN3tbb6detail2r111resume_nodeE
+000000000000dab0 l     F .text	0000000000000067              _ZN3tbb6detail2r111resume_nodeD1Ev
+000000000000db20 l     F .text	0000000000000058              _ZN3tbb6detail2r114delegated_taskD2Ev
+0000000000037d60 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r114delegated_taskE
+000000000000db20 l     F .text	0000000000000058              _ZN3tbb6detail2r114delegated_taskD1Ev
+000000000000db80 l     F .text	000000000000001a              _ZNK3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_EclEv
+000000000000dba0 l     F .text	0000000000000018              _ZNK3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_EclEv
+000000000000dbc0 l     F .text	0000000000000019              _ZNK3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_EclEv
+000000000000dbe0 l     F .text	000000000000001d              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEE4initEv
+000000000000dc00 l     F .text	0000000000000057              _ZN3tbb6detail2r111resume_node5resetEv
+000000000000dc60 l     F .text	000000000000001d              _ZN3tbb6detail2r110sleep_nodeImE4initEv
+000000000000dca0 l     F .text	0000000000000088              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEED0Ev
+000000000000dd30 l     F .text	0000000000000076              _ZN3tbb6detail2r111resume_nodeD0Ev
+000000000000ddb0 l     F .text	0000000000000067              _ZN3tbb6detail2r114delegated_taskD0Ev
+000000000000de30 l     F .text	0000000000000088              _ZN3tbb6detail2r110sleep_nodeImED0Ev
+000000000000ded0 l     F .text	0000000000000009              _ZN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_ED0Ev
+000000000000dee0 l     F .text	0000000000000012              _ZN3tbb6detail2r1L26std_cache_aligned_allocateEmm
+000000000000df00 l     F .text	000000000000007d              _ZN3tbb6detail2r1L29dummy_get_default_concurrencyEiii
+000000000000c030 l     F .text	0000000000000010              _ZN3tbb6detail2r1L29dummy_get_default_concurrencyEiii.cold
+000000000000c040 l     F .text	0000000000000010              _ZNK3tbb6detail2r127allowed_parallelism_control13default_valueEv.cold
+000000000000dff0 l     F .text	0000000000000011              _ZN3tbb6detail2r111resume_node4waitEv
+000000000000e010 l     F .text	0000000000000195              _ZN3tbb6detail2r120nested_arena_contextC2ERNS1_11thread_dataERNS1_5arenaEm
+000000000000e010 l     F .text	0000000000000195              _ZN3tbb6detail2r120nested_arena_contextC1ERNS1_11thread_dataERNS1_5arenaEm
+000000000004f4c0 l     O .bss	0000000000001010              _ZN3tbb6detail2r1L7ap_dataE
+000000000000e2e0 l     F .text	00000000000000c4              _ZN3tbb6detail2r1L15resolve_symbolsEPvPKNS1_23dynamic_link_descriptorEm.part.0
+000000000000e3b0 l     F .text	0000000000000117              _ZN3tbb6detail2r112dynamic_loadEPKcPKNS1_23dynamic_link_descriptorEmb
+000000000000c050 l     F .text	0000000000000036              _ZN3tbb6detail2r112dynamic_linkEPKcPKNS1_23dynamic_link_descriptorEmPPvi.cold
+000000000000e6d0 l     F .text	00000000000000bd              _ZN3tbb6detail2r127initialize_handler_pointersEv
+0000000000038600 l     O .data.rel.ro	0000000000000060              _ZN3tbb6detail2r1L15MallocLinkTableE
+00000000000504e0 l     O .bss	0000000000000008              _ZN3tbb6detail2r137cache_aligned_allocate_handler_unsafeE
+00000000000504e8 l     O .bss	0000000000000008              _ZN3tbb6detail2r1L18deallocate_handlerE
+00000000000504f0 l     O .bss	0000000000000008              _ZN3tbb6detail2r123allocate_handler_unsafeE
+00000000000504d8 l     O .bss	0000000000000008              _ZN3tbb6detail2r1L32cache_aligned_deallocate_handlerE
+000000000003ad38 l     O .data	0000000000000008              _ZN3tbb6detail2r1L16allocate_handlerE
+000000000003ad30 l     O .data	0000000000000008              _ZN3tbb6detail2r1L30cache_aligned_allocate_handlerE
+000000000000c086 l     F .text	000000000000004d              _ZZN3tbb6detail2r113handle_perrorEiPKcENKUlvE_clEv
+000000000000e7b0 l     F .text	0000000000000024              _ZN3tbb6detail2r112missing_waitD0Ev
+000000000000e800 l     F .text	0000000000000024              _ZN3tbb6detail2r110user_abortD0Ev
+000000000000e850 l     F .text	0000000000000024              _ZN3tbb6detail2r114bad_last_allocD0Ev
+000000000000e8a0 l     F .text	0000000000000020              _ZN3tbb6detail2r111unsafe_waitD0Ev
+000000000000e8c0 l     F .text	00000000000001ab              _ZN3tbb6detail2r115system_topology10initializeEv
+000000000004f4a8 l     O .bss	0000000000000004              _ZN3tbb6detail2r115system_topologyL20initialization_stateE
+00000000000384a0 l     O .data.rel.ro	00000000000000a8              _ZN3tbb6detail2r1L16TbbBindLinkTableE
+0000000000039008 l     O .data	0000000000000004              _ZZN3tbb6detail2r115system_topology19initialization_implEvE11dummy_index
+000000000004f498 l     O .bss	0000000000000004              _ZN3tbb6detail2r115system_topology12_GLOBAL__N_116numa_nodes_countE
+000000000004f490 l     O .bss	0000000000000008              _ZN3tbb6detail2r115system_topology12_GLOBAL__N_118numa_nodes_indexesE
+000000000004f480 l     O .bss	0000000000000008              _ZN3tbb6detail2r115system_topology12_GLOBAL__N_118core_types_indexesE
+000000000004f488 l     O .bss	0000000000000004              _ZN3tbb6detail2r115system_topology12_GLOBAL__N_116core_types_countE
+000000000004f4a0 l     O .bss	0000000000000008              _ZN3tbb6detail2r1L30initialize_system_topology_ptrE
+000000000000ea80 l     F .text	0000000000000075              _ZL21__itt_detach_init_3_0v
+000000000003ac38 l     O .data	0000000000000008              __itt_detach_ptr__3_0
+000000000000eb00 l     F .text	0000000000000095              _ZL26__itt_sync_create_init_3_0PvPKcS1_i
+000000000000eba0 l     F .text	0000000000000085              _ZL26__itt_sync_rename_init_3_0PvPKc
+000000000000ec30 l     F .text	000000000000007d              _ZL27__itt_sync_destroy_init_3_0Pv
+000000000000ecb0 l     F .text	000000000000007d              _ZL27__itt_sync_prepare_init_3_0Pv
+000000000000ed30 l     F .text	000000000000007d              _ZL26__itt_sync_cancel_init_3_0Pv
+000000000000edb0 l     F .text	000000000000007d              _ZL28__itt_sync_acquired_init_3_0Pv
+000000000000ee30 l     F .text	000000000000007d              _ZL29__itt_sync_releasing_init_3_0Pv
+000000000000eeb0 l     F .text	0000000000000075              _ZL28__itt_suppress_push_init_3_0j
+000000000003ac00 l     O .data	0000000000000008              __itt_suppress_push_ptr__3_0
+000000000000ef30 l     F .text	0000000000000075              _ZL27__itt_suppress_pop_init_3_0v
+000000000003abf8 l     O .data	0000000000000008              __itt_suppress_pop_ptr__3_0
+000000000000efb0 l     F .text	0000000000000095              _ZL34__itt_suppress_mark_range_init_3_019__itt_suppress_modejPvm
+000000000003abf0 l     O .data	0000000000000008              __itt_suppress_mark_range_ptr__3_0
+000000000000f050 l     F .text	0000000000000095              _ZL35__itt_suppress_clear_range_init_3_019__itt_suppress_modejPvm
+000000000003abe8 l     O .data	0000000000000008              __itt_suppress_clear_range_ptr__3_0
+000000000000f0f0 l     F .text	000000000000007d              _ZL28__itt_fsync_prepare_init_3_0Pv
+000000000003abe0 l     O .data	0000000000000008              __itt_fsync_prepare_ptr__3_0
+000000000000f170 l     F .text	000000000000007d              _ZL27__itt_fsync_cancel_init_3_0Pv
+000000000003abd8 l     O .data	0000000000000008              __itt_fsync_cancel_ptr__3_0
+000000000000f2b0 l     F .text	00000000000002b7              _ZN3tbb6detail2r120nested_arena_contextD2Ev
+000000000000f2b0 l     F .text	00000000000002b7              _ZN3tbb6detail2r120nested_arena_contextD1Ev
+000000000000f570 l     F .text	0000000000000096              _ZN3tbb6detail2r123concurrent_monitor_baseImE11cancel_waitERNS1_9wait_nodeImEE
+000000000000f610 l     F .text	00000000000001b9              _ZN3tbb6detail2r123concurrent_monitor_baseImE17abort_all_relaxedEv
+00000000000504d0 l     O .bss	0000000000000004              _ZN3tbb6detail2r1L20initialization_stateE
+000000000000c0d3 l     F .text	0000000000000036              _ZN3tbb6detail2r134initialize_cache_aligned_allocatorEv.cold
+000000000000fe40 l     F .text	000000000000001a              _ZN3tbb6detail2r1L27initialize_allocate_handlerEm
+000000000000fe60 l     F .text	000000000000002c              _ZN3tbb6detail2r1L41initialize_cache_aligned_allocate_handlerEmm
+000000000000c109 l     F .text	0000000000000010              _ZN3tbb6detail2r18governor19default_num_threadsEv.cold
+0000000000010190 l     F .text	0000000000000064              _ZN3tbb6detail2r15arena16occupy_free_slotILb0EEEmRNS1_11thread_dataE
+000000000000c138 l     F .text	0000000000000010              _ZN3tbb6detail2r115control_storage12active_valueEv.cold
+000000000000c148 l     F .text	000000000000001b              _ZN3tbb6detail2r127allowed_parallelism_control12active_valueEv.cold
+000000000000c164 l     F .text	0000000000000010              _ZN3tbb6detail2r116lifetime_control12apply_activeEm.cold
+000000000003ad00 l     O .data	0000000000000008              _ZN3tbb6detail2r127get_default_concurrency_ptrE
+000000000000c174 l     F .text	0000000000000010              _ZN3tbb6detail2r124numa_default_concurrencyEi.cold
+0000000000038470 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r115control_storageE
+0000000000037c80 l     O .data.rel.ro	0000000000000020              _ZN3tbb6detail2r1L8controlsE
+000000000000c1ac l     F .text	0000000000000012              _ZN3tbb6detail2r17destroyERNS0_2d114global_controlE.cold
+00000000000119e0 l     F .text	000000000000001a              _ZN3tbb6detail2r122terminate_on_exceptionEv
+000000000000c1be l     F .text	000000000000006e              _ZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idE.cold
+0000000000011af0 l     F .text	0000000000000086              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEE4waitEv
+000000000000c22c l     F .text	000000000000008d              _ZN3tbb6detail2r115wait_on_addressEPvRNS0_2d113delegate_baseEm.cold
+0000000000012090 l     F .text	0000000000000444              _ZN3tbb6detail2r15arena18advertise_new_workILNS2_13new_work_typeE2EEEvv
+0000000000037ca8 l     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_EE
+000000000000c2ba l     F .text	0000000000000024              _ZN3tbb6detail2r18governor14auto_terminateEPv.cold
+000000000000c2de l     F .text	0000000000000012              _ZN3tbb6detail2r16createERNS0_2d114global_controlE.cold
+0000000000012ee0 l     F .text	0000000000000086              _ZN3tbb6detail2r110sleep_nodeImE4waitEv
+000000000000c2f0 l     F .text	0000000000000023              _ZN3tbb6detail2r126wait_bounded_queue_monitorEPNS1_18concurrent_monitorEmlRNS0_2d113delegate_baseE.cold
+000000000000c313 l     F .text	0000000000000012              _ZN3tbb6detail2r18finalizeERNS0_2d121task_scheduler_handleEl.cold
+000000000000c325 l     F .text	000000000000001b              _ZN3tbb6detail2r113handle_perrorEiPKc.cold
+000000000000c340 l     F .text	0000000000000012              _ZN3tbb6detail2r118suspend_point_type11resume_task7executeERNS0_2d114execution_dataE.cold
+0000000000014010 l     F .text	0000000000000030              _ZN3tbb6detail2d123task_scheduler_observerD1Ev
+0000000000014040 l     F .text	000000000000003e              _ZN3tbb6detail2d123task_scheduler_observerD0Ev
+0000000000014080 l     F .text	0000000000000044              _ZN3tbb6detail2r121numa_binding_observerD1Ev
+00000000000140d0 l     F .text	0000000000000053              _ZN3tbb6detail2r121numa_binding_observerD0Ev
+0000000000014cb0 l     F .text	000000000000002f              _ZN3tbb6detail2r121numa_binding_observer18on_scheduler_entryEb
+000000000003ad28 l     O .data	0000000000000008              _ZN3tbb6detail2r1L18apply_affinity_ptrE
+0000000000014ce0 l     F .text	000000000000002f              _ZN3tbb6detail2r121numa_binding_observer17on_scheduler_exitEb
+000000000003ad20 l     O .data	0000000000000008              _ZN3tbb6detail2r1L20restore_affinity_ptrE
+0000000000014d10 l     F .text	00000000000001f1              _ZN3tbb6detail2r114delegated_task8finalizeEv
+0000000000014f10 l     F .text	00000000000000c0              _ZN3tbb6detail2r114delegated_task7executeERNS0_2d114execution_dataE
+000000000000c352 l     F .text	0000000000000039              _ZN3tbb6detail2r114delegated_task7executeERNS0_2d114execution_dataE.cold
+0000000000014fd0 l     F .text	0000000000000014              _ZN3tbb6detail2r114delegated_task6cancelERNS0_2d114execution_dataE
+000000000000c38c l     F .text	0000000000000020              _ZN3tbb6detail2r18governor20init_external_threadEv.cold
+000000000003ad10 l     O .data	0000000000000008              _ZN3tbb6detail2r1L28allocate_binding_handler_ptrE
+000000000000c3ac l     F .text	0000000000000010              _ZN3tbb6detail2r110initializeERNS0_2d115task_arena_baseE.cold
+00000000000155e0 l     F .text	00000000000001a9              _ZN3tbb6detail2r115task_arena_impl7enqueueERNS0_2d14taskEPNS3_18task_group_contextEPNS3_15task_arena_baseE
+000000000000c3bc l     F .text	0000000000000015              _ZN3tbb6detail2r115task_arena_impl7enqueueERNS0_2d14taskEPNS3_18task_group_contextEPNS3_15task_arena_baseE.cold
+00000000000157b0 l     F .text	00000000000009c2              _ZN3tbb6detail2r115task_arena_impl7executeERNS0_2d115task_arena_baseERNS3_13delegate_baseE
+000000000000c3d2 l     F .text	000000000000008e              _ZN3tbb6detail2r115task_arena_impl7executeERNS0_2d115task_arena_baseERNS3_13delegate_baseE.cold
+000000000000c460 l     F .text	000000000000000a              _ZN3tbb6detail2r120isolate_within_arenaERNS0_2d113delegate_baseEl.cold
+00000000000393e8 l     O .data	0000000000000008              __itt_enable_attach_ptr__3_0
+0000000000039400 l     O .data	0000000000000008              __itt_thr_name_set_ptr__3_0
+0000000000039460 l     O .data	0000000000001770              _ZL8api_list
+000000000002d3e0 l     O .rodata	000000000000005e              _ZTSN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_EE
+0000000000038270 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIbE4waitEbmSt12memory_orderEUlvE_EE
+000000000002d500 l     O .rodata	0000000000000042              _ZTSN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_EE
+000000000002d560 l     O .rodata	000000000000004a              _ZTSN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_EE
+00000000000382f8 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_EE
+0000000000038310 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_EE
+000000000002d5b0 l     O .rodata	000000000000001e              _ZTSN3tbb6detail2r19wait_nodeImEE
+0000000000038328 l     O .data.rel.ro	0000000000000028              _ZTIN3tbb6detail2r19wait_nodeImEE
+000000000002d5e0 l     O .rodata	0000000000000020              _ZTSN3tbb6detail2r110sleep_nodeImEE
+0000000000038350 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r110sleep_nodeImEE
+000000000002d640 l     O .rodata	0000000000000021              _ZTSN3tbb6detail2r114delegated_taskE
+00000000000383a0 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r114delegated_taskE
+000000000002d680 l     O .rodata	0000000000000028              _ZTSN3tbb6detail2r121numa_binding_observerE
+00000000000383b8 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r121numa_binding_observerE
+00000000000383d0 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2d123task_scheduler_observerE
+000000000002d6c0 l     O .rodata	000000000000002a              _ZTSN3tbb6detail2d123task_scheduler_observerE
+000000000002d740 l     O .rodata	000000000000001e              _ZTSN3tbb6detail2r111resume_nodeE
+0000000000038408 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r111resume_nodeE
+000000000002d7c0 l     O .rodata	0000000000000033              _ZTSN3tbb6detail2r19wait_nodeINS1_15address_contextEEE
+0000000000038430 l     O .data.rel.ro	0000000000000028              _ZTIN3tbb6detail2r19wait_nodeINS1_15address_contextEEE
+000000000002d800 l     O .rodata	0000000000000035              _ZTSN3tbb6detail2r110sleep_nodeINS1_15address_contextEEE
+0000000000038458 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r110sleep_nodeINS1_15address_contextEEE
+0000000000000000 l    df *ABS*	0000000000000000              
+0000000000016220 l     F .text	0000000000000007              _ZNK3tbb6detail2r16market7versionEv
+0000000000016220 l     F .text	0000000000000007              _ZNK3tbb6detail2r13rml14private_server7versionEv
+0000000000016250 l     F .text	000000000000000c              _ZN3tbb6detail2r16market7cleanupERN3rml3jobE
+0000000000016260 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_ED2Ev
+0000000000016260 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_ED1Ev
+0000000000016270 l     F .text	0000000000000005              _ZN3tbb6detail2r13rml14private_server33independent_thread_number_changedEi
+0000000000016280 l     F .text	00000000000000bf              _ZL18__itt_report_erroriz
+0000000000016340 l     F .text	0000000000000009              _ZN3tbb6detail2r13rml14private_server5yieldEv
+0000000000016350 l     F .text	00000000000002b5              __itt_fini_ittlib.part.0
+0000000000050598 l     O .bss	0000000000000008              _ZZ17__itt_fini_ittlibE14current_thread
+0000000000016610 l     F .text	0000000000000019              __itt_fini_ittlib
+0000000000016630 l     F .text	00000000000000c3              _ZL17__itt_get_env_varPKc
+000000000003b100 l     O .data	0000000000000008              _ZZL17__itt_get_env_varPKcE9env_value
+00000000000505a0 l     O .bss	0000000000000ff6              _ZZL17__itt_get_env_varPKcE8env_buff
+0000000000016700 l     F .text	0000000000000298              _ZL16__itt_get_groupsv
+0000000000037fe0 l     O .data.rel.ro	0000000000000110              _ZL10group_list
+0000000000037fa0 l     O .data.rel.ro	0000000000000040              _ZL11group_alias
+00000000000169a0 l     F .text	000000000000020d              _ZL28__itt_is_collector_availablev
+00000000000515a0 l     O .bss	0000000000000030              _ZL12dummy_domain
+0000000000017e50 l     F .text	00000000000000f7              _ZL30__itt_free_allocated_resourcesv
+0000000000017f50 l     F .text	0000000000000115              _ZN3tbb6detail2r16market13arena_in_needEPNS1_14intrusive_listINS1_5arenaEEEPS4_
+0000000000018070 l     F .text	0000000000000017              _ZNK3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_EclEv
+0000000000018090 l     F .text	0000000000000169              _ZN3tbb6detail2r16marketD2Ev
+0000000000018090 l     F .text	0000000000000169              _ZN3tbb6detail2r16marketD1Ev
+0000000000018200 l     F .text	0000000000000048              _ZN3tbb6detail2r113observer_list6removeEPNS1_14observer_proxyE
+0000000000018250 l     F .text	0000000000000191              _ZN3tbb6detail2r16marketD0Ev
+0000000000018410 l     F .text	0000000000000009              _ZN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_ED0Ev
+0000000000018420 l     F .text	0000000000000026              _ZN3tbb6detail2d114rw_scoped_lockINS1_13spin_rw_mutexEE7releaseEv
+0000000000018450 l     F .text	0000000000000146              _ZN3tbb6detail2r113observer_list10remove_refEPNS1_14observer_proxyE
+00000000000185a0 l     F .text	0000000000000653              _ZN3tbb6detail2r133ITT_DoUnsafeOneTimeInitializationEv.part.0
+000000000005058d l     O .bss	0000000000000001              _ZN3tbb6detail2r1L22ITT_InitializationDoneE
+0000000000050558 l     O .bss	0000000000000008              _ZZ17__itt_init_ittlibE14current_thread
+0000000000050560 l     O .bss	0000000000000018              _ZN3tbb6detail2r1L11tbb_domainsE
+000000000003ad60 l     O .data	00000000000003a0              _ZN3tbb6detail2r1L15strings_for_ittE
+0000000000050590 l     O .bss	0000000000000004              _ZN3tbb6detail2r114__TBB_InitOnce5countE
+0000000000050588 l     O .bss	0000000000000004              _ZN3tbb6detail2r1L15assertion_stateE
+0000000000019170 l     F .text	000000000000052b              _ZN3tbb6detail2r114__TBB_InitOnce10remove_refEv.part.0
+0000000000019700 l     F .text	0000000000000058              _ZN3tbb6detail2r115affinity_helperD2Ev
+0000000000019700 l     F .text	0000000000000058              _ZN3tbb6detail2r115affinity_helperD1Ev
+0000000000019760 l     F .text	0000000000000289              _ZN3tbb6detail2r1L36initialize_hardware_concurrency_infoEv
+000000000005057c l     O .bss	0000000000000004              _ZN3tbb6detail2r1L11theNumProcsE
+0000000000037f00 l     O .data.rel.ro	0000000000000018              _ZN3tbb6detail2r1L13iompLinkTableE
+0000000000050580 l     O .bss	0000000000000008              _ZN3tbb6detail2r1L35libiomp_try_restoring_original_maskE
+000000000000c49a l     F .text	0000000000000015              _ZN3tbb6detail2r1L36initialize_hardware_concurrency_infoEv.cold
+000000000005058c l     O .bss	0000000000000001              _ZN3tbb6detail2r1L16PrintVersionFlagE
+0000000000050578 l     O .bss	0000000000000004              _ZN3tbb6detail2r1L25hardware_concurrency_infoE
+000000000005058e l     O .bss	0000000000000001              _ZN3tbb6detail2r114__TBB_InitOnce18InitializationLockE
+000000000002e200 l     O .rodata	000000000000008d              _ZN3tbb6detail2r1L13VersionStringE
+000000000000c4af l     F .text	0000000000000010              _ZN3tbb6detail2r123DoOneTimeInitializationEv.cold
+000000000000c4c0 l     F .text	0000000000000010              _ZNK3tbb6detail2r13rml14private_server19default_concurrencyEv.cold
+000000000001f350 l     F .text	00000000000001c9              _ZN3tbb6detail2r16market28acknowledge_close_connectionEv
+000000000001f520 l     F .text	0000000000000020              _ZN3tbb6detail2r13rml14private_serverD2Ev
+000000000001f520 l     F .text	0000000000000020              _ZN3tbb6detail2r13rml14private_serverD1Ev
+000000000001f540 l     F .text	00000000000004d1              _ZN3tbb6detail2r13rml14private_server24request_close_connectionEb
+000000000001fa20 l     F .text	0000000000000024              _ZN3tbb6detail2r13rml14private_serverD0Ev
+000000000001fa50 l     F .text	000000000000008b              _ZN3tbb6detail2r18pipelineD2Ev
+000000000001fa50 l     F .text	000000000000008b              _ZN3tbb6detail2r18pipelineD1Ev
+000000000001fae0 l     F .text	000000000000012b              _ZN3tbb6detail2r112input_buffer4growEm
+000000000001fc10 l     F .text	00000000000001a6              _ZN3tbb6detail2r16market14create_one_jobEv
+000000000000c51c l     F .text	0000000000000010              _ZN3tbb6detail2r16market14create_one_jobEv.cold
+0000000000020940 l     F .text	0000000000000e0e              _ZN3tbb6detail2r16market7processERN3rml3jobE
+000000000000c52c l     F .text	0000000000000247              _ZN3tbb6detail2r16market7processERN3rml3jobE.cold
+0000000000021750 l     F .text	0000000000000a3e              _ZN3tbb6detail2r18pipeline13fill_pipelineERKNS0_2d111filter_nodeE
+0000000000022190 l     F .text	000000000000004b              _ZN3tbb6detail2r110stage_taskD2Ev
+0000000000037ed0 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r110stage_taskE
+0000000000022190 l     F .text	000000000000004b              _ZN3tbb6detail2r110stage_taskD1Ev
+00000000000221e0 l     F .text	0000000000000094              _ZN3tbb6detail2r110stage_task6cancelERNS0_2d114execution_dataE
+0000000000022280 l     F .text	0000000000000062              _ZN3tbb6detail2r110stage_taskD0Ev
+00000000000222f0 l     F .text	000000000000068b              _ZN3tbb6detail2r110stage_task7executeERNS0_2d114execution_dataE
+000000000000c774 l     F .text	0000000000000024              _ZN3tbb6detail2r110stage_task7executeERNS0_2d114execution_dataE.cold
+000000000000c798 l     F .text	0000000000000010              _ZN3tbb6detail2r117parallel_pipelineERNS0_2d118task_group_contextEmRKNS2_11filter_nodeE.cold
+00000000000237a0 l     F .text	0000000000000377              _ZN3tbb6detail2r13rml14private_worker14thread_routineEPv
+000000000000c7a8 l     F .text	0000000000000012              _ZN3tbb6detail2r13rml14private_server9wake_someEi.cold
+0000000000037f18 l     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_EE
+000000000002df98 l     O .rodata	000000000000000e              _ZTSN3rml6serverE
+0000000000038660 l     O .data.rel.ro	0000000000000018              _ZTIN3rml6serverE
+0000000000038728 l     O .data.rel.ro	0000000000000010              _ZTIN3rml16versioned_objectE
+000000000002dfc0 l     O .rodata	0000000000000021              _ZTSN3tbb6detail2r13rml10tbb_serverE
+0000000000038678 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r13rml10tbb_serverE
+000000000002e000 l     O .rodata	0000000000000025              _ZTSN3tbb6detail2r13rml14private_serverE
+0000000000038690 l     O .data.rel.ro	0000000000000038              _ZTIN3tbb6detail2r13rml14private_serverE
+0000000000038778 l     O .data.rel.ro	0000000000000028              _ZTIN3tbb6detail2d07no_copyE
+000000000002e030 l     O .rodata	000000000000001b              _ZTSN3tbb6detail2r19task_infoE
+00000000000386c8 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2r19task_infoE
+000000000002e050 l     O .rodata	000000000000001d              _ZTSN3tbb6detail2r110stage_taskE
+00000000000386d8 l     O .data.rel.ro	0000000000000038              _ZTIN3tbb6detail2r110stage_taskE
+000000000002e080 l     O .rodata	0000000000000065              _ZTSN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_EE
+0000000000038710 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2d118delegated_functionIZNS1_15waitable_atomicIiE10wait_untilEimSt12memory_orderEUlvE_EE
+000000000002e0f0 l     O .rodata	0000000000000019              _ZTSN3rml16versioned_objectE
+000000000002e110 l     O .rodata	000000000000000e              _ZTSN3rml6clientE
+000000000002e120 l     O .rodata	000000000000001b              _ZTSN3tbb6detail2d09no_assignE
+0000000000038738 l     O .data.rel.ro	0000000000000018              _ZTIN3rml6clientE
+000000000002e140 l     O .rodata	0000000000000021              _ZTSN3tbb6detail2r13rml10tbb_clientE
+0000000000038750 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2d09no_assignE
+000000000002e170 l     O .rodata	0000000000000019              _ZTSN3tbb6detail2d07no_copyE
+0000000000038760 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r13rml10tbb_clientE
+000000000002e190 l     O .rodata	0000000000000018              _ZTSN3tbb6detail2r16marketE
+00000000000387a0 l     O .data.rel.ro	0000000000000038              _ZTIN3tbb6detail2r16marketE
+000000000002e1c0 l     O .rodata	0000000000000034              _ZL11api_version
+0000000000000000 l    df *ABS*	0000000000000000              
+0000000000023b20 l     F .text	0000000000000058              _ZN3tbb6detail2d015spin_wait_whileImZNS1_18spin_wait_while_eqImmEET_RKSt6atomicIS4_ET0_St12memory_orderEUlmE_EES4_S8_S9_SA_.constprop.0.isra.0
+0000000000023b80 l     F .text	0000000000000058              _ZN3tbb6detail2d015spin_wait_whileImZNS1_18spin_wait_while_eqImjEET_RKSt6atomicIS4_ET0_St12memory_orderEUlmE_EES4_S8_S9_SA_.isra.0
+0000000000023be0 l     F .text	0000000000000073              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEED2Ev
+00000000000381b0 l     O .data.rel.ro	0000000000000040              _ZTVN3tbb6detail2r110sleep_nodeINS1_14market_contextEEE
+0000000000023be0 l     F .text	0000000000000073              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEED1Ev
+0000000000023c60 l     F .text	0000000000000012              _ZN3tbb6detail2r117current_coroutineERNS1_14coroutine_typeE
+0000000000023c80 l     F .text	0000000000000115              _ZN3tbb6detail2r116create_coroutineERNS1_14coroutine_typeEmPv
+000000000002a100 l     F .text	0000000000000c8c              _ZN3tbb6detail2r121co_local_wait_for_allEjj
+0000000000023da0 l     F .text	0000000000000088              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEED0Ev
+000000000000c7ba l     F .text	0000000000000008              _ZZN3tbb6detail2r115task_dispatcher18local_wait_for_allILb1ENS1_15external_waiterEEEPNS0_2d14taskES7_RT0_ENUlvE_4_FUNEv
+000000000000c7c2 l     F .text	0000000000000008              _ZZN3tbb6detail2r115task_dispatcher18local_wait_for_allILb0ENS1_15external_waiterEEEPNS0_2d14taskES7_RT0_ENUlvE_4_FUNEv
+000000000000c7ca l     F .text	0000000000000008              _ZZN3tbb6detail2r115task_dispatcher18local_wait_for_allILb1ENS1_16coroutine_waiterEEEPNS0_2d14taskES7_RT0_ENUlvE_4_FUNEv
+000000000000c7d2 l     F .text	0000000000000008              _ZZN3tbb6detail2r115task_dispatcher18local_wait_for_allILb0ENS1_16coroutine_waiterEEEPNS0_2d14taskES7_RT0_ENUlvE_4_FUNEv
+000000000000c7da l     F .text	0000000000000017              _ZN3tbb6detail2r117tbb_exception_ptr10throw_selfEv.cold
+000000000002e67d l     O .rodata	0000000000000007              _ZZ19TBB_runtime_versionE11version_str
+000000000000cb12 l     F .text	0000000000000010              _ZN3tbb6detail2r16market14add_ref_unsafeERNS0_2d118unique_scoped_lockINS3_10spin_mutexEEEbjm.constprop.0.cold
+000000000000cb22 l     F .text	0000000000000005              _ZN3tbb6detail2r115affinity_helper21protect_affinity_maskEb.part.0.constprop.0.cold
+000000000000d230 l     F .text	00000000000002ec              _sub_I_65535_0.0
+00000000000515d0 l     O .bss	0000000000000001              _ZN3tbb6detail2r1L28__TBB_InitOnceHiddenInstanceE
+0000000000038180 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r127allowed_parallelism_controlE
+0000000000038150 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r118stack_size_controlE
+0000000000038120 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r130terminate_on_exception_controlE
+00000000000380f0 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r116lifetime_controlE
+000000000000cb27 l     F .text	0000000000000036              _sub_I_65535_0.0.cold
+0000000000025900 l     F .text	0000000000000044              _ZN3tbb6detail2r122small_object_pool_impl15deallocate_implEPvmRNS1_11thread_dataE.part.0
+0000000000025a20 l     F .text	0000000000000212              _ZN3tbb6detail2r110arena_slot17prepare_task_poolEm.constprop.0
+0000000000025c40 l     F .text	0000000000000085              _ZNSt11_Deque_baseIPN3tbb6detail2d14taskENS2_23cache_aligned_allocatorIS4_EEE17_M_initialize_mapEm.constprop.0
+000000000000cb5e l     F .text	000000000000004e              _ZNSt11_Deque_baseIPN3tbb6detail2d14taskENS2_23cache_aligned_allocatorIS4_EEE17_M_initialize_mapEm.constprop.0.cold
+000000000000cbac l     F .text	0000000000000024              _ZN3tbb6detail2r16resumeEPNS1_18suspend_point_typeE.cold
+0000000000025fc0 l     F .text	0000000000000393              _ZN3tbb6detail2r115task_dispatcher21do_post_resume_actionEv.isra.0
+00000000000515d8 l     O .bss	0000000000000008              _ZN3tbb6detail2r135the_context_state_propagation_epochE
+00000000000381f0 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r118suspend_point_type11resume_taskE
+000000000000cbd0 l     F .text	0000000000000069              _ZN3tbb6detail2r115task_dispatcher18init_suspend_pointEPNS1_5arenaEm.cold
+0000000000026a80 l     F .text	00000000000000b3              _ZN3tbb6detail2r111thread_data26propagate_task_group_stateIjEEvMNS0_2d118task_group_contextESt6atomicIT_ERS5_S7_.constprop.0
+000000000000cc39 l     F .text	0000000000000010              _ZN3tbb6detail2r122cancel_group_executionERNS0_2d118task_group_contextE.cold
+000000000000cc4a l     F .text	000000000000011a              _ZN3tbb6detail2r16market13global_marketEbjm.constprop.0.cold
+0000000000027510 l     F .text	00000000000003b4              _ZN3tbb6detail2r15arena18advertise_new_workILNS2_13new_work_typeE0EEEvv
+0000000000038220 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r110task_proxyE
+000000000000cd64 l     F .text	000000000000003f              _ZN3tbb6detail2r16submitERNS0_2d14taskERNS2_18task_group_contextEPNS1_5arenaEm.cold
+0000000000027f70 l     F .text	0000000000000ad7              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb1ENS1_15external_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb
+000000000000cda4 l     F .text	0000000000000015              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb1ENS1_15external_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb.cold
+0000000000027f70 l     F .text	0000000000000ad7              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb0ENS1_15external_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb
+0000000000028a50 l     F .text	0000000000000ac9              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb1ENS1_16coroutine_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb
+000000000000cdba l     F .text	0000000000000015              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb1ENS1_16coroutine_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb.cold
+0000000000028a50 l     F .text	0000000000000ac9              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb0ENS1_16coroutine_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb
+0000000000029520 l     F .text	0000000000000b9a              _ZN3tbb6detail2r115task_dispatcher16execute_and_waitEPNS0_2d14taskERNS3_12wait_contextERNS3_18task_group_contextE
+000000000000ce4c l     F .text	0000000000000218              _ZN3tbb6detail2r115task_dispatcher16execute_and_waitEPNS0_2d14taskERNS3_12wait_contextERNS3_18task_group_contextE.cold
+000000000000d064 l     F .text	0000000000000197              _ZN3tbb6detail2r121co_local_wait_for_allEjj.cold
+000000000000d1fc l     F .text	0000000000000010              _ZN3tbb6detail2r16market12create_arenaEiijm.constprop.0.cold
+000000000000d20c l     F .text	0000000000000015              _ZN3tbb6detail2r17destroyERNS0_2d118task_group_contextE.cold
+000000000002e4e0 l     O .rodata	0000000000000023              _ZTSN3tbb6detail2r116lifetime_controlE
+000000000002e520 l     O .rodata	0000000000000031              _ZTSN3tbb6detail2r130terminate_on_exception_controlE
+000000000002e560 l     O .rodata	0000000000000025              _ZTSN3tbb6detail2r118stack_size_controlE
+000000000002e5a0 l     O .rodata	000000000000002e              _ZTSN3tbb6detail2r127allowed_parallelism_controlE
+00000000000387d8 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r116lifetime_controlE
+00000000000387f0 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r130terminate_on_exception_controlE
+0000000000038808 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r118stack_size_controlE
+0000000000038820 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r127allowed_parallelism_controlE
+000000000002e5e0 l     O .rodata	0000000000000034              _ZTSN3tbb6detail2r110sleep_nodeINS1_14market_contextEEE
+0000000000038838 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r110sleep_nodeINS1_14market_contextEEE
+000000000002e620 l     O .rodata	0000000000000032              _ZTSN3tbb6detail2r118suspend_point_type11resume_taskE
+0000000000038850 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r118suspend_point_type11resume_taskE
+000000000002e660 l     O .rodata	000000000000001d              _ZTSN3tbb6detail2r110task_proxyE
+0000000000038868 l     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r110task_proxyE
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+000000000000d520 l     F .text	0000000000000000              deregister_tm_clones
+000000000000d550 l     F .text	0000000000000000              register_tm_clones
+000000000000d590 l     F .text	0000000000000000              __do_global_dtors_aux
+000000000003b180 l     O .bss	0000000000000001              completed.0
+0000000000037c58 l     O .fini_array	0000000000000000              __do_global_dtors_aux_fini_array_entry
+000000000000d5d0 l     F .text	0000000000000000              frame_dummy
+0000000000037c48 l     O .init_array	0000000000000000              __frame_dummy_init_array_entry
+0000000000000000 l    df *ABS*	0000000000000000              crtstuff.c
+000000000003543c l     O .eh_frame	0000000000000000              __FRAME_END__
+0000000000000000 l    df *ABS*	0000000000000000              
+00000000000390a8 l     O .data	0000000000000008              __itt_task_end_ex_ptr__3_0
+000000000003ad08 l     O .data	0000000000000008              __itt_sync_create_ptr__3_0
+000000000001d740 l     F .text	0000000000000075              _ZL33__itt_clock_domain_reset_init_3_0v.lto_priv.0
+00000000000393a8 l     O .data	0000000000000008              __itt_model_lock_release_ptr__3_0
+000000000001e510 l     F .text	0000000000000069              _ZL42__itt_module_unload_with_sections_init_3_0P20___itt_module_object.lto_priv.0
+000000000001b560 l     F .text	0000000000000075              _ZL39__itt_heap_internal_access_end_init_3_0v.lto_priv.0
+000000000001d6b0 l     F .text	0000000000000087              _ZL34__itt_clock_domain_create_init_3_0PFvP17___itt_clock_infoPvES1_.lto_priv.0
+0000000000039040 l     O .data	0000000000000008              __itt_api_version_ptr__3_0
+000000000000d6b0 l     F .text	0000000000000005              _ZN3tbb6detail2r1L29dummy_destroy_system_topologyEv.lto_priv.0
+00000000000114a0 l     F .text	0000000000000029              _ZN3tbb6detail2r110task_proxy6cancelERNS0_2d114execution_dataE
+0000000000039138 l     O .data	0000000000000008              __itt_counter_dec_delta_ptr__3_0
+000000000001c9a0 l     F .text	0000000000000085              _ZL28__itt_memory_update_init_3_0Pvm.lto_priv.0
+00000000000390f8 l     O .data	0000000000000008              __itt_stack_caller_create_ptr__3_0
+00000000000392a0 l     O .data	0000000000000008              __itt_id_create_ptr__3_0
+00000000000105c0 l     F .text	00000000000001ae              _ZN3tbb6detail2r127allowed_parallelism_control12active_valueEv
+00000000000cf1a5 l       .debug_info	0000000000000000              exception.cpp.b9434858
+0000000000039228 l     O .data	0000000000000008              __itt_counter_dec_delta_v3_ptr__3_0
+000000000003b40c l     O .bss	0000000000000004              _ZN3tbb6detail2r1L18init_dl_data_stateE.lto_priv.0
+000000000001e4a0 l     F .text	0000000000000069              _ZL40__itt_module_load_with_sections_init_3_0P20___itt_module_object.lto_priv.0
+00000000000392e8 l     O .data	0000000000000008              __itt_heap_free_end_ptr__3_0
+000000000001d0f0 l     F .text	0000000000000085              _ZL32__itt_counter_set_value_init_3_0P14___itt_counterPv.lto_priv.0
+000000000001ced0 l     F .text	000000000000007d              _ZL26__itt_counter_inc_init_3_0P14___itt_counter.lto_priv.0
+0000000000050520 l     O .bss	0000000000000020              _ZN3tbb6detail2r18governor19theRMLServerFactoryE
+00000000001b125b l       .debug_info	0000000000000000              task.cpp.13ff9ae8
+000000000001cb30 l     F .text	0000000000000087              _ZL27__itt_obj_mode_set_init_3_014__itt_obj_prop15__itt_obj_state.lto_priv.0
+000000000001b7e0 l     F .text	000000000000007d              _ZL24__itt_id_create_init_3_0PK13___itt_domain9___itt_id.lto_priv.0
+000000000001c310 l     F .text	0000000000000085              _ZL27__itt_relation_add_init_3_0PK13___itt_domain9___itt_id14__itt_relationS2_.lto_priv.0
+000000000001aa80 l     F .text	0000000000000085              _ZL33__itt_model_site_beginAL_init_3_0PKcm.lto_priv.0
+00000000000393a0 l     O .data	0000000000000008              __itt_model_record_allocation_ptr__3_0
+000000000001cf50 l     F .text	0000000000000085              _ZL32__itt_counter_inc_delta_init_3_0P14___itt_countery.lto_priv.0
+0000000000039100 l     O .data	0000000000000008              __itt_mark_global_off_ptr__3_0
+000000000001f1f0 l     F .text	0000000000000149              _ZN3tbb6detail2r117rtm_rw_mutex_impl14acquire_writerERNS0_2d112rtm_rw_mutexERNS4_11scoped_lockEb
+000000000000d620 l     F .text	0000000000000007              _ZN3tbb6detail2r118suspend_point_type11resume_task6cancelERNS0_2d114execution_dataE
+000000000001c010 l     F .text	000000000000008d              _ZL35__itt_counter_dec_delta_v3_init_3_0PK13___itt_domainP20___itt_string_handley.lto_priv.0
+0000000000039208 l     O .data	0000000000000008              __itt_relation_add_to_current_ptr__3_0
+0000000000039448 l     O .data	0000000000000008              __itt_module_load_with_sections_ptr__3_0
+0000000000039368 l     O .data	0000000000000008              __itt_model_site_beginAL_ptr__3_0
+000000000001ba70 l     F .text	0000000000000085              _ZL29__itt_frame_begin_v3_init_3_0PK13___itt_domainP9___itt_id.lto_priv.0
+000000000001d630 l     F .text	000000000000007d              _ZL33__itt_stack_callee_leave_init_3_0P13___itt_caller.lto_priv.0
+000000000001e040 l     F .text	000000000000007f              _ZL33__itt_track_group_create_init_3_0P20___itt_string_handle23___itt_track_group_type.lto_priv.0
+00000000000143b0 l     F .text	000000000000032d              _ZN3tbb6detail2r110arena_slot8get_taskERNS1_18execution_data_extEl
+000000000001cab0 l     F .text	0000000000000077              _ZL24__itt_state_set_init_3_0i.lto_priv.0
+0000000000039178 l     O .data	0000000000000008              __itt_frame_create_ptr__3_0
+0000000000039238 l     O .data	0000000000000008              __itt_counter_inc_delta_v3_ptr__3_0
+0000000000010030 l     F .text	0000000000000071              _ZN3tbb6detail2r115task_dispatcher12recall_pointEv
+000000000003ad18 l     O .data	0000000000000008              _ZN3tbb6detail2r1L30deallocate_binding_handler_ptrE.lto_priv.0
+00000000000391e8 l     O .data	0000000000000008              __itt_event_end_ptr__3_0
+0000000000012620 l     F .text	00000000000002b4              _ZN3tbb6detail2r18governor14auto_terminateEPv
+000000000002e684 l       .eh_frame_hdr	0000000000000000              __GNU_EH_FRAME_HDR
+000000000001b300 l     F .text	0000000000000085              _ZL28__itt_heap_free_end_init_3_0PvS_.lto_priv.0
+0000000000012950 l     F .text	00000000000001e5              _ZNSt5dequeIPN3tbb6detail2d14taskENS2_23cache_aligned_allocatorIS4_EEE16_M_push_back_auxIJRKS4_EEEvDpOT_
+0000000000010ad0 l     F .text	000000000000017c              _ZN3tbb6detail2r111task_streamILNS1_25task_stream_accessor_typeE1EE3popINS1_23preceding_lane_selectorEEEPNS0_2d14taskERKT_
+000000000001ab90 l     F .text	0000000000000085              _ZL33__itt_model_task_beginAL_init_3_0PKcm.lto_priv.0
+000000000000c8a0 l     F .text	0000000000000051              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE4_clEv.constprop.0
+0000000000010c50 l     F .text	00000000000001de              _ZN3tbb6detail2r15arena18advertise_new_workILNS2_13new_work_typeE1EEEvv
+0000000000178f46 l       .debug_info	0000000000000000              profiling.cpp.42748c78
+0000000000039428 l     O .data	0000000000000008              __itt_counter_create_typed_ptr__3_0
+000000000001c680 l     F .text	000000000000007d              _ZL34__itt_notify_sync_prepare_init_3_0Pv.lto_priv.0
+00000000000383e0 l     O .data.rel.ro	0000000000000028              _ZTIN3tbb6detail2r19wait_nodeINS1_14market_contextEEE
+0000000000018eb0 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_ED1Ev.lto_priv.0
+0000000000013970 l     F .text	0000000000000692              _ZN3tbb6detail2r118suspend_point_type11resume_task7executeERNS0_2d114execution_dataE
+000000000001a410 l     F .text	0000000000000085              _ZL29__itt_model_site_end_init_3_0PPvS0_.lto_priv.0
+000000000003b478 l     O .bss	0000000000000008              _ZGVZN3tbb6detail2r18governor19default_num_threadsEvE11num_threads
+00000000000390c8 l     O .data	0000000000000008              __itt_id_create_ex_ptr__3_0
+00000000000393c8 l     O .data	0000000000000008              __itt_model_site_end_ptr__3_0
+000000000001c280 l     F .text	0000000000000085              _ZL38__itt_relation_add_to_current_init_3_0PK13___itt_domain14__itt_relation9___itt_id.lto_priv.0
+00000000000393c0 l     O .data	0000000000000008              __itt_model_task_begin_ptr__3_0
+000000000001d330 l     F .text	0000000000000077              _ZL23__itt_mark_off_init_3_0i.lto_priv.0
+0000000000037ca0 l     O .data.rel.ro	0000000000000008              _ZN3tbb6detail2r120SyncObj_ContextsListE
+0000000000018ea0 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_ED2Ev.lto_priv.0
+0000000000039188 l     O .data	0000000000000008              __itt_obj_mode_set_ptr__3_0
+000000000001cbc0 l     F .text	0000000000000087              _ZL27__itt_thr_mode_set_init_3_014__itt_thr_prop15__itt_thr_state.lto_priv.0
+0000000000017680 l     F .text	0000000000000408              _ZL35__itt_counter_create_typed_init_3_0PKcS0_19__itt_metadata_type.lto_priv.0
+000000000002d4a0 l     O .rodata	0000000000000021              _ZTSN3tbb6detail2r114bad_last_allocE
+00000000001963fb l       .debug_info	0000000000000000              small_object_pool.cpp.b00ccd4b
+000000000001ae30 l     F .text	000000000000007d              _ZL35__itt_model_lock_acquire_2_init_3_0Pv.lto_priv.0
+000000000000caa6 l     F .text	0000000000000035              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE0_clEv.constprop.0
+00000000000390b0 l     O .data	0000000000000008              __itt_task_begin_fn_ex_ptr__3_0
+000000000000f1f0 l     F .text	00000000000000bc              _ZN3tbb6detail2r124concurrent_monitor_mutex4lockEv
+0000000000039440 l     O .data	0000000000000008              __itt_module_unload_with_sections_ptr__3_0
+000000000001d3b0 l     F .text	0000000000000087              _ZL26__itt_mark_global_init_3_0iPKc.lto_priv.0
+00000000000104e0 l     F .text	0000000000000005              _ZN3tbb6detail2r110task_proxyD2Ev.lto_priv.0
+000000000001e1d0 l     F .text	000000000000006f              _ZL26__itt_api_version_init_3_0v.lto_priv.0
+000000000001a750 l     F .text	000000000000007d              _ZL40__itt_model_record_deallocation_init_3_0Pv.lto_priv.0
+0000000000039028 l     O .data	0000000000000008              __itt_module_unload_ptr__3_0
+00000000000393b0 l     O .data	0000000000000008              __itt_model_lock_acquire_ptr__3_0
+000000000000ff10 l     F .text	0000000000000035              _ZN3tbb6detail2d014atomic_backoff5pauseEv
+000000000002d4e0 l     O .rodata	0000000000000020              _ZTSN3tbb6detail2d113delegate_baseE
+0000000000039408 l     O .data	0000000000000008              __itt_thread_ignore_ptr__3_0
+0000000000026440 l     F .text	0000000000000233              _ZN3tbb6detail2r123task_group_context_impl7bind_toERNS0_2d118task_group_contextEPNS1_11thread_dataE
+00000000000392e0 l     O .data	0000000000000008              __itt_heap_reallocate_begin_ptr__3_0
+00000000000390b8 l     O .data	0000000000000008              __itt_task_begin_ex_ptr__3_0
+0000000000013820 l     F .text	0000000000000118              _ZN3tbb6detail2r113handle_perrorEiPKc
+0000000000039310 l     O .data	0000000000000008              __itt_model_disable_pop_ptr__3_0
+000000000001c700 l     F .text	000000000000007d              _ZL33__itt_notify_sync_cancel_init_3_0Pv.lto_priv.0
+000000000003b280 l     O .bss	0000000000000080              _ZN3tbb6detail2r1L26terminate_on_exception_ctlE.lto_priv.0
+0000000000039110 l     O .data	0000000000000008              __itt_mark_off_ptr__3_0
+000000000003ac40 l     O .data	00000000000000c0              __itt__ittapi_global
+000000000001dcf0 l     F .text	00000000000000a5              _ZL24__itt_marker_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_idP20___itt_string_handle11__itt_scope.lto_priv.0
+000000000001c800 l     F .text	000000000000007d              _ZL36__itt_notify_sync_releasing_init_3_0Pv.lto_priv.0
+00000000000391f8 l     O .data	0000000000000008              __itt_event_create_ptr__3_0
+0000000000037f40 l     O .data.rel.ro	0000000000000058              _ZTVN3tbb6detail2r16marketE
+0000000000039148 l     O .data	0000000000000008              __itt_counter_inc_delta_ptr__3_0
+0000000000039058 l     O .data	0000000000000008              __itt_track_group_create_ptr__3_0
+000000000001ccd0 l     F .text	000000000000007f              _ZL31__itt_pt_region_create_init_3_0PKc.lto_priv.0
+000000000003b468 l     O .bss	0000000000000002              _ZN3tbb6detail2r18governor12cpu_featuresE
+000000000000ca70 l     F .text	0000000000000035              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE1_clEv.constprop.0
+00000000000393d8 l     O .data	0000000000000008              __itt_fsync_releasing_ptr__3_0
+00000000000392b0 l     O .data	0000000000000008              __itt_heap_reset_detection_ptr__3_0
+000000000001b140 l     F .text	000000000000008d              _ZL34__itt_heap_allocate_begin_init_3_0Pvmi.lto_priv.0
+00000000000100b0 l     F .text	00000000000000e0              _ZN3tbb6detail2r15arena25occupy_free_slot_in_rangeERNS1_11thread_dataEmm
+0000000000019ea0 l     F .text	0000000000000071              _ZNK3tbb6detail2r13rml14private_server19default_concurrencyEv
+0000000000025470 l     F .text	00000000000000db              _ZN3tbb6detail2r16market16update_allotmentEPNS1_14intrusive_listINS1_5arenaEEEii.isra.0
+000000000000e790 l     F .text	0000000000000017              _ZN3tbb6detail2r112missing_waitD2Ev.lto_priv.0
+0000000000117390 l       .debug_info	0000000000000000              market.cpp.7a337735
+000000000001a980 l     F .text	000000000000007d              _ZL31__itt_model_clear_uses_init_3_0Pv.lto_priv.0
+000000000003b40a l     O .bss	0000000000000001              _ZN3tbb6detail2r135the_context_state_propagation_mutexE
+0000000000039378 l     O .data	0000000000000008              __itt_model_clear_uses_ptr__3_0
+0000000000039140 l     O .data	0000000000000008              __itt_counter_dec_ptr__3_0
+000000000000d9d0 l     F .text	000000000000003f              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEE6notifyEv
+0000000000026680 l     F .text	0000000000000133              _ZN3tbb6detail2r115task_dispatcher18init_suspend_pointEPNS1_5arenaEm
+000000000003abd0 l     O .data	0000000000000008              _ZN3tbb6detail2r1L27destroy_system_topology_ptrE.lto_priv.0
+000000000001df00 l     F .text	0000000000000095              _ZL41__itt_relation_add_to_current_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy14__itt_relation9___itt_id.lto_priv.0
+00000000000ca91f l       .debug_info	0000000000000000              dynamic_link.cpp.4696201d
+0000000000014010 l     F .text	0000000000000030              _ZN3tbb6detail2d123task_scheduler_observerD2Ev.lto_priv.0
+000000000000d720 l     F .text	000000000000000b              _ZNK3tbb6detail2r115control_storage22is_first_arg_preferredEmm
+000000000000fd60 l     F .text	00000000000000d2              _ZN3tbb6detail2r134initialize_cache_aligned_allocatorEv
+00000000000250e0 l     F .text	00000000000000d8              _ZSt9__find_ifIPiN9__gnu_cxx5__ops16_Iter_equals_valIKiEEET_S6_S6_T0_St26random_access_iterator_tag.constprop.0
+00000000000391f0 l     O .data	0000000000000008              __itt_event_start_ptr__3_0
+000000000000c198 l     F .text	0000000000000014              _ZN3tbb6detail2d118task_group_context22cancel_group_executionEv
+000000000003b480 l     O .bss	0000000000014000              _ZN3tbb6detail2r1L20address_waiter_tableE.lto_priv.0
+000000000001a860 l     F .text	0000000000000085              _ZL35__itt_model_reduction_uses_init_3_0Pvm.lto_priv.0
+000000000000d750 l     F .text	0000000000000007              _ZNK3tbb6detail2r130terminate_on_exception_control13default_valueEv
+000000000000d750 l     F .text	0000000000000007              _ZNK3tbb6detail2r116lifetime_control13default_valueEv
+0000000000039300 l     O .data	0000000000000008              __itt_heap_allocate_begin_ptr__3_0
+000000000001b0b0 l     F .text	0000000000000087              _ZL35__itt_heap_function_create_init_3_0PKcS0_.lto_priv.0
+00000000000391e0 l     O .data	0000000000000008              __itt_sync_set_name_ptr__3_0
+000000000001b5e0 l     F .text	0000000000000075              _ZL46__itt_heap_record_memory_growth_begin_init_3_0v.lto_priv.0
+000000000001b430 l     F .text	00000000000000a5              _ZL34__itt_heap_reallocate_end_init_3_0PvS_PS_mi.lto_priv.0
+0000000000039030 l     O .data	0000000000000008              __itt_module_load_ptr__3_0
+0000000000039000 l     O .data	0000000000000000              __dso_handle
+000000000001b390 l     F .text	0000000000000095              _ZL36__itt_heap_reallocate_begin_init_3_0PvS_mi.lto_priv.0
+000000000001afb0 l     F .text	0000000000000075              _ZL33__itt_model_disable_push_init_3_019__itt_model_disable.lto_priv.0
+000000000003b46c l     O .bss	0000000000000004              _ZN3tbb6detail2r18governor6theTLSE
+000000000001d8e0 l     F .text	0000000000000095              _ZL28__itt_task_begin_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_idS4_P20___itt_string_handle.lto_priv.0
+0000000000039370 l     O .data	0000000000000008              __itt_model_site_beginA_ptr__3_0
+0000000000037c60 l     O .data.rel.ro	0000000000000008              _ZN3tbb6detail2r13rml8internalL12SyncType_RMLE.lto_priv.0
+0000000000039118 l     O .data	0000000000000008              __itt_mark_ptr__3_0
+000000000000c184 l     F .text	0000000000000014              _ZN3tbb6detail2d118task_group_contextD1Ev
+0000000000014080 l     F .text	0000000000000044              _ZN3tbb6detail2r121numa_binding_observerD2Ev.lto_priv.0
+00000000000196a0 l     F .text	000000000000005c              _ZN3tbb6detail2r114__TBB_InitOnceD1Ev.lto_priv.0
+0000000000039330 l     O .data	0000000000000008              __itt_model_lock_acquire_2_ptr__3_0
+000000000001c3a0 l     F .text	0000000000000087              _ZL27__itt_event_create_init_3_0PKci.lto_priv.0
+000000000000e790 l     F .text	0000000000000017              _ZN3tbb6detail2r112missing_waitD1Ev.lto_priv.0
+0000000000010e30 l     F .text	0000000000000005              _ZN3tbb6detail2r118suspend_point_type11resume_taskD2Ev.lto_priv.0
+000000000001cc50 l     F .text	000000000000007f              _ZL27__itt_frame_create_init_3_0PKc.lto_priv.0
+0000000000014800 l     F .text	00000000000004af              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb0ENS1_23outermost_worker_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb
+000000000000e4d0 l     F .text	0000000000000200              _ZN3tbb6detail2r112dynamic_linkEPKcPKNS1_23dynamic_link_descriptorEmPPvi
+000000000000c7f2 l     F .text	000000000000005c              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE9_clEv.constprop.0
+0000000000039450 l     O .data	0000000000000008              __itt_domain_create_ptr__3_0
+00000000001f0d61 l       .debug_info	0000000000000000              task_group_context.cpp.92a6e9ac
+000000000001adb0 l     F .text	0000000000000075              _ZL31__itt_model_task_end_2_init_3_0v.lto_priv.0
+000000000000c46a l     F .text	0000000000000030              _ZN3tbb6detail2r120context_guard_helperILb1EED2Ev.lto_priv.0
+0000000000039418 l     O .data	0000000000000008              __itt_resume_ptr__3_0
+0000000000039120 l     O .data	0000000000000008              __itt_mark_create_ptr__3_0
+0000000000039108 l     O .data	0000000000000008              __itt_mark_global_ptr__3_0
+0000000000039220 l     O .data	0000000000000008              __itt_marker_ptr__3_0
+000000000001e600 l     F .text	0000000000000075              _ZL21__itt_resume_init_3_0v.lto_priv.0
+0000000000039240 l     O .data	0000000000000008              __itt_counter_inc_v3_ptr__3_0
+000000000003ac28 l     O .data	0000000000000008              __itt_sync_destroy_ptr__3_0
+0000000000039358 l     O .data	0000000000000008              __itt_model_task_beginAL_ptr__3_0
+000000000003b300 l     O .bss	0000000000000080              _ZN3tbb6detail2r1L14stack_size_ctlE.lto_priv.0
+0000000000039420 l     O .data	0000000000000008              __itt_pause_ptr__3_0
+000000000003b200 l     O .bss	0000000000000080              _ZN3tbb6detail2r1L12lifetime_ctlE.lto_priv.0
+000000000003ad48 l     O .data	0000000000000008              DW.ref.__gxx_personality_v0
+000000000001bb00 l     F .text	0000000000000085              _ZL27__itt_frame_end_v3_init_3_0PK13___itt_domainP9___itt_id.lto_priv.0
+0000000000039170 l     O .data	0000000000000008              __itt_pt_region_create_ptr__3_0
+000000000001bb90 l     F .text	0000000000000095              _ZL30__itt_frame_submit_v3_init_3_0PK13___itt_domainP9___itt_idyy.lto_priv.0
+000000000001a080 l     F .text	000000000000015d              _ZN3tbb6detail2r113observer_list24do_notify_exit_observersEPNS1_14observer_proxyEb
+000000000001dda0 l     F .text	00000000000000a5              _ZL38__itt_metadata_add_with_scope_init_3_0PK13___itt_domain11__itt_scopeP20___itt_string_handle19__itt_metadata_typemPv.lto_priv.0
+000000000000c4d0 l     F .text	000000000000004b              _ZN3tbb6detail2d114rw_scoped_lockINS1_8rw_mutexEE7releaseEv
+000000000001d4c0 l     F .text	000000000000006f              _ZL34__itt_stack_caller_create_init_3_0v.lto_priv.0
+0000000000016f10 l     F .text	0000000000000364              _ZL35__itt_string_handle_create_init_3_0PKc.lto_priv.0
+0000000000026ca0 l     F .text	000000000000028d              _ZN3tbb6detail2r115task_dispatcher27get_stream_or_critical_taskERNS1_18execution_data_extERNS1_5arenaERNS1_11task_streamILNS1_25task_stream_accessor_typeE0EEERjlb.isra.0
+000000000002b854 l     F .fini	0000000000000000              _fini
+0000000000039260 l     O .data	0000000000000008              __itt_task_group_ptr__3_0
+000000000001e380 l     F .text	000000000000007d              _ZL28__itt_module_unload_init_3_0Pv.lto_priv.0
+0000000000039048 l     O .data	0000000000000008              __itt_set_track_ptr__3_0
+0000000000011470 l     F .text	0000000000000029              _ZN3tbb6detail2r110task_proxy7executeERNS0_2d114execution_dataE
+0000000000039288 l     O .data	0000000000000008              __itt_region_begin_ptr__3_0
+00000000000393f0 l     O .data	0000000000000008              __itt_histogram_create_ptr__3_0
+000000000003b470 l     O .bss	0000000000000004              _ZZN3tbb6detail2r18governor19default_num_threadsEvE11num_threads
+00000000001948bc l       .debug_info	0000000000000000              semaphore.cpp.d3657a3f
+0000000000026f30 l     F .text	00000000000005d6              _ZN3tbb6detail2r16market13global_marketEbjm.constprop.0
+000000000001a7d0 l     F .text	0000000000000085              _ZL35__itt_model_induction_uses_init_3_0Pvm.lto_priv.0
+000000000003b420 l     O .bss	0000000000000048              _ZN3tbb6detail2r1L7handlesE.lto_priv.0
+000000000000cdd0 l     F .text	000000000000007c              _ZN3tbb6detail2r117tbb_exception_ptr8allocateEv
+0000000000010770 l     F .text	0000000000000162              _ZN3tbb6detail2r116lifetime_control12apply_activeEm
+000000000001a530 l     F .text	0000000000000085              _ZL29__itt_model_task_end_init_3_0PPvS0_.lto_priv.0
+000000000001dbe0 l     F .text	000000000000007d              _ZL34__itt_task_end_overlapped_init_3_0PK13___itt_domain9___itt_id.lto_priv.0
+0000000000019b30 l     F .text	000000000000008c              _ZN3tbb6detail2r122AvailableHwConcurrencyEv
+000000000000dc80 l     F .text	000000000000001d              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEE4initEv
+000000000001dab0 l     F .text	0000000000000085              _ZL36__itt_task_begin_overlapped_init_3_0PK13___itt_domain9___itt_idS2_P20___itt_string_handle.lto_priv.0
+0000000000039180 l     O .data	0000000000000008              __itt_thr_mode_set_ptr__3_0
+000000000001c130 l     F .text	00000000000000a5              _ZL27__itt_metadata_add_init_3_0PK13___itt_domain9___itt_idP20___itt_string_handle19__itt_metadata_typemPv.lto_priv.0
+000000000001db40 l     F .text	0000000000000095              _ZL39__itt_task_begin_overlapped_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_idS4_P20___itt_string_handle.lto_priv.0
+000000000001dfa0 l     F .text	0000000000000095              _ZL30__itt_relation_add_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_id14__itt_relationS4_.lto_priv.0
+000000000001cd50 l     F .text	000000000000007d              _ZL26__itt_frame_begin_init_3_0P13__itt_frame_t.lto_priv.0
+0000000000037dc0 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2d123task_scheduler_observerE
+000000000000c128 l     F .text	0000000000000010              _ZN3tbb6detail2d118unique_scoped_lockINS1_10spin_mutexEED2Ev.lto_priv.0
+0000000000103a7d l       .debug_info	0000000000000000              itt_notify.cpp.ed285a06
+0000000000025410 l     F .text	0000000000000058              _ZN3tbb6detail2d015spin_wait_whileINS1_13do_once_stateEZNS1_18spin_wait_while_eqIS3_S3_EET_RKSt6atomicIS5_ET0_St12memory_orderEUlS3_E_EES5_S9_SA_SB_.constprop.0.isra.0
+000000000001d5b0 l     F .text	000000000000007d              _ZL33__itt_stack_callee_enter_init_3_0P13___itt_caller.lto_priv.0
+000000000001a5c0 l     F .text	000000000000007d              _ZL33__itt_model_lock_acquire_init_3_0Pv.lto_priv.0
+0000000000039068 l     O .data	0000000000000008              __itt_relation_add_to_current_ex_ptr__3_0
+0000000000039218 l     O .data	0000000000000008              __itt_metadata_add_ptr__3_0
+000000000001cdd0 l     F .text	000000000000007d              _ZL24__itt_frame_end_init_3_0P13__itt_frame_t.lto_priv.0
+0000000000037d90 l     O .data.rel.ro	0000000000000030              _ZTVN3tbb6detail2r121numa_binding_observerE
+000000000020e7f1 l       .debug_info	0000000000000000              version.cpp.65e7bfaf
+000000000002d3a0 l     O .rodata	0000000000000022              _ZTSN3tbb6detail2r115control_storageE
+00000000000391b8 l     O .data	0000000000000008              __itt_notify_sync_releasing_ptr__3_0
+0000000000023050 l     F .text	0000000000000310              _ZN3tbb6detail2r16market22set_active_num_workersEj
+0000000000039168 l     O .data	0000000000000008              __itt_frame_begin_ptr__3_0
+00000000000391d0 l     O .data	0000000000000008              __itt_notify_sync_prepare_ptr__3_0
+0000000000039340 l     O .data	0000000000000008              __itt_model_site_end_2_ptr__3_0
+000000000003ac08 l     O .data	0000000000000008              __itt_sync_releasing_ptr__3_0
+000000000001ad30 l     F .text	0000000000000075              _ZL31__itt_model_site_end_2_init_3_0v.lto_priv.0
+00000000000390d0 l     O .data	0000000000000008              __itt_clock_domain_reset_ptr__3_0
+00000000001ceb80 l       .debug_info	0000000000000000              task_dispatcher.cpp.0370deb9
+000000000000c9e8 l     F .text	0000000000000051              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE2_clEv.constprop.0
+000000000001bde0 l     F .text	000000000000007d              _ZL23__itt_task_end_init_3_0PK13___itt_domain.lto_priv.0
+0000000000039268 l     O .data	0000000000000008              __itt_frame_submit_v3_ptr__3_0
+0000000000039348 l     O .data	0000000000000008              __itt_model_iteration_taskAL_ptr__3_0
+0000000000037cd0 l     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_EE
+0000000000039080 l     O .data	0000000000000008              __itt_marker_ex_ptr__3_0
+0000000000018c80 l     F .text	00000000000001a5              _ZN3tbb6detail2r16market7releaseEbb
+000000000001b030 l     F .text	0000000000000075              _ZL32__itt_model_disable_pop_init_3_0v.lto_priv.0
+000000000003ac20 l     O .data	0000000000000008              __itt_sync_prepare_ptr__3_0
+000000000001b760 l     F .text	0000000000000075              _ZL26__itt_heap_record_init_3_0j.lto_priv.0
+0000000000039278 l     O .data	0000000000000008              __itt_frame_begin_v3_ptr__3_0
+00000000001086a0 l       .debug_info	0000000000000000              main.cpp.d2d649eb
+0000000000011370 l     F .text	0000000000000034              _ZN3tbb6detail2r127allowed_parallelism_controlD2Ev
+00000000000392d0 l     O .data	0000000000000008              __itt_heap_internal_access_begin_ptr__3_0
+0000000000012f70 l     F .text	0000000000000086              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEE4waitEv
+000000000001d220 l     F .text	000000000000007f              _ZL26__itt_mark_create_init_3_0PKc.lto_priv.0
+0000000000039130 l     O .data	0000000000000008              __itt_counter_set_value_ptr__3_0
+0000000000039200 l     O .data	0000000000000008              __itt_relation_add_ptr__3_0
+0000000000039438 l     O .data	0000000000000008              __itt_string_handle_create_ptr__3_0
+00000000000392a8 l     O .data	0000000000000008              __itt_heap_record_ptr__3_0
+0000000000039328 l     O .data	0000000000000008              __itt_model_lock_release_2_ptr__3_0
+0000000000050510 l     O .bss	0000000000000001              _ZN3tbb6detail2r18governor13UsePrivateRMLE
+000000000001c1e0 l     F .text	0000000000000095              _ZL31__itt_metadata_str_add_init_3_0PK13___itt_domain9___itt_idP20___itt_string_handlePKcm.lto_priv.0
+0000000000011430 l     F .text	0000000000000034              _ZN3tbb6detail2r116lifetime_controlD1Ev.lto_priv.0
+000000000003ac30 l     O .data	0000000000000008              __itt_sync_rename_ptr__3_0
+000000000001bef0 l     F .text	000000000000008d              _ZL35__itt_counter_inc_delta_v3_init_3_0PK13___itt_domainP20___itt_string_handley.lto_priv.0
+0000000000039020 l     O .data	0000000000000008              __itt_histogram_submit_ptr__3_0
+000000000000d730 l     F .text	000000000000000b              _ZNK3tbb6detail2r127allowed_parallelism_control22is_first_arg_preferredEmm
+000000000002d600 l     O .rodata	000000000000001e              _ZTSN3tbb6detail2d111task_traitsE
+000000000001a640 l     F .text	000000000000007d              _ZL33__itt_model_lock_release_init_3_0Pv.lto_priv.0
+000000000001c5d0 l     F .text	00000000000000af              _ZL31__itt_notify_sync_name_init_3_0PvPKciS1_ii.lto_priv.0
+000000000000f7d0 l     F .text	000000000000003a              _ZN3tbb6detail2r124concurrent_monitor_mutex6unlockEv
+0000000000039390 l     O .data	0000000000000008              __itt_model_induction_uses_ptr__3_0
+0000000000010200 l     F .text	00000000000001a9              _ZN3tbb6detail2r110arena_baseD2Ev.lto_priv.0
+0000000000039090 l     O .data	0000000000000008              __itt_task_end_overlapped_ptr__3_0
+000000000001da20 l     F .text	000000000000008d              _ZL26__itt_task_end_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy.lto_priv.0
+000000000000d650 l     F .text	0000000000000024              _ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIRFvvEJEEvRS_OT_DpOT0_EUlvE_EERS6_ENUlvE_4_FUNEv
+000000000000e1b0 l     F .text	0000000000000121              _ZN3tbb6detail2r1L12init_dl_dataEv.lto_priv.0
+00000000000390e0 l     O .data	0000000000000008              __itt_stack_callee_leave_ptr__3_0
+000000000000c184 l     F .text	0000000000000014              _ZN3tbb6detail2d118task_group_contextD2Ev.lto_priv.0
+000000000002d460 l     O .rodata	000000000000001f              _ZTSN3tbb6detail2r112missing_waitE
+000000000001a300 l     F .text	000000000000007d              _ZL30__itt_fsync_releasing_init_3_0Pv.lto_priv.0
+0000000000019040 l     F .text	0000000000000127              _ZN3tbb6detail2r115runtime_warningEPKcz
+0000000000022c30 l     F .text	00000000000003f8              _ZN3tbb6detail2r13rml14private_server9wake_someEi
+000000000003b409 l     O .bss	0000000000000001              _ZN3tbb6detail2r114__TBB_InitOnce18InitializationDoneE
+000000000002d620 l     O .rodata	0000000000000016              _ZTSN3tbb6detail2d14taskE
+0000000000010e30 l     F .text	0000000000000005              _ZN3tbb6detail2r118suspend_point_type11resume_taskD1Ev.lto_priv.0
+000000000002b6b0 l     F .text	00000000000001a2              _ZNSt8_Rb_treeIPN3tbb6detail2d114global_controlES4_St9_IdentityIS4_ENS1_2r126control_storage_comparatorENS2_13tbb_allocatorIS4_EEE8_M_eraseEPSt13_Rb_tree_nodeIS4_E.isra.0
+000000000001d440 l     F .text	0000000000000077              _ZL30__itt_mark_global_off_init_3_0i.lto_priv.0
+0000000000039230 l     O .data	0000000000000008              __itt_counter_dec_v3_ptr__3_0
+0000000000039150 l     O .data	0000000000000008              __itt_counter_inc_ptr__3_0
+0000000000039320 l     O .data	0000000000000008              __itt_model_aggregate_task_ptr__3_0
+000000000000b000 l     F .init	0000000000000000              _init
+00000000000392b8 l     O .data	0000000000000008              __itt_heap_record_memory_growth_end_ptr__3_0
+0000000000038880 l     O .dynamic	0000000000000000              _DYNAMIC
+0000000000039060 l     O .data	0000000000000008              __itt_relation_add_ex_ptr__3_0
+000000000003b108 l     O .data	0000000000000000              __TMC_END__
+0000000000039350 l     O .data	0000000000000008              __itt_model_iteration_taskA_ptr__3_0
+0000000000183cd0 l       .debug_info	0000000000000000              rtm_mutex.cpp.4922459c
+000000000003ad40 l     O .data	0000000000000008              DW.ref.__gcc_personality_v0
+0000000000039258 l     O .data	0000000000000008              __itt_task_begin_ptr__3_0
+000000000001a280 l     F .text	000000000000007d              _ZL29__itt_fsync_acquired_init_3_0Pv.lto_priv.0
+0000000000039290 l     O .data	0000000000000008              __itt_get_timestamp_ptr__3_0
+0000000000039190 l     O .data	0000000000000008              __itt_state_set_ptr__3_0
+00000000000113f0 l     F .text	0000000000000034              _ZN3tbb6detail2r130terminate_on_exception_controlD1Ev.lto_priv.0
+000000000001a4a0 l     F .text	000000000000008d              _ZL31__itt_model_task_begin_init_3_0PPvS0_PKc.lto_priv.0
+0000000000026820 l     F .text	00000000000001d7              _ZN3tbb6detail2r115task_dispatcher16internal_suspendEv
+0000000000050550 l     O .bss	0000000000000001              _ZN3tbb6detail2r111ITT_PresentE
+00000000000392f8 l     O .data	0000000000000008              __itt_heap_allocate_end_ptr__3_0
+0000000000037cf8 l     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_EE
+000000000001c430 l     F .text	0000000000000077              _ZL26__itt_event_start_init_3_0i.lto_priv.0
+000000000001bc30 l     F .text	0000000000000085              _ZL25__itt_task_group_init_3_0PK13___itt_domain9___itt_idS2_P20___itt_string_handle.lto_priv.0
+000000000000d710 l     F .text	0000000000000009              _ZN3tbb6detail2r118stack_size_control12apply_activeEm
+0000000000025550 l     F .text	00000000000001a4              _ZN3tbb6detail2r15arena14is_out_of_workEv.isra.0
+0000000000010e40 l     F .text	0000000000000192              _ZN3tbb6detail2r110arena_slot10steal_taskERNS1_5arenaElm
+00000000000391b0 l     O .data	0000000000000008              __itt_memory_read_ptr__3_0
+00000000000391c8 l     O .data	0000000000000008              __itt_notify_sync_cancel_ptr__3_0
+000000000000d740 l     F .text	000000000000000a              _ZNK3tbb6detail2r118stack_size_control13default_valueEv
+000000000001d850 l     F .text	000000000000008d              _ZL28__itt_id_destroy_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_id.lto_priv.0
+000000000000e880 l     F .text	0000000000000013              _ZN3tbb6detail2r111unsafe_waitD2Ev.lto_priv.0
+00000000000390f0 l     O .data	0000000000000008              __itt_stack_caller_destroy_ptr__3_0
+0000000000050500 l     O .bss	0000000000000004              _ZN3tbb6detail2r1L9num_masksE.lto_priv.0
+0000000000039270 l     O .data	0000000000000008              __itt_frame_end_v3_ptr__3_0
+0000000000039308 l     O .data	0000000000000008              __itt_heap_function_create_ptr__3_0
+000000000001cfe0 l     F .text	000000000000007d              _ZL26__itt_counter_dec_init_3_0P14___itt_counter.lto_priv.0
+00000000000392c0 l     O .data	0000000000000008              __itt_heap_record_memory_growth_begin_ptr__3_0
+0000000000039280 l     O .data	0000000000000008              __itt_region_end_ptr__3_0
+0000000000050548 l     O .bss	0000000000000008              _ZGVZN3tbb6detail2r18governor17default_page_sizeEvE9page_size
+000000000001b1d0 l     F .text	0000000000000095              _ZL32__itt_heap_allocate_end_init_3_0PvPS_mi.lto_priv.0
+00000000000196a0 l     F .text	000000000000005c              _ZN3tbb6detail2r114__TBB_InitOnceD2Ev
+000000000001e760 l     F .text	0000000000000075              _ZL28__itt_thread_ignore_init_3_0v.lto_priv.0
+000000000001b270 l     F .text	0000000000000085              _ZL30__itt_heap_free_begin_init_3_0PvS_.lto_priv.0
+0000000000039128 l     O .data	0000000000000008              __itt_counter_set_value_ex_ptr__3_0
+000000000000cadc l     F .text	0000000000000035              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE_clEv.constprop.0
+0000000000024570 l     F .text	0000000000000044              _ZN3tbb6detail2r117tbb_exception_ptr10throw_selfEv
+00000000000113b0 l     F .text	0000000000000034              _ZN3tbb6detail2r118stack_size_controlD1Ev.lto_priv.0
+000000000003ac18 l     O .data	0000000000000008              __itt_sync_cancel_ptr__3_0
+000000000000d710 l     F .text	0000000000000009              _ZN3tbb6detail2r115control_storage12apply_activeEm
+00000000000f0fa4 l       .debug_info	0000000000000000              global_control.cpp.96cddcd7
+0000000000039050 l     O .data	0000000000000008              __itt_track_create_ptr__3_0
+0000000000039160 l     O .data	0000000000000008              __itt_frame_end_ptr__3_0
+0000000000018ea0 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_ED1Ev.lto_priv.0
+000000000000ca3a l     F .text	0000000000000035              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE5_clEv.constprop.0
+0000000000017280 l     F .text	0000000000000400              _ZL29__itt_counter_create_init_3_0PKcS0_.lto_priv.0
+0000000000039388 l     O .data	0000000000000008              __itt_model_reduction_uses_ptr__3_0
+0000000000167f04 l       .debug_info	0000000000000000              private_server.cpp.d817d7b7
+0000000000039248 l     O .data	0000000000000008              __itt_task_end_ptr__3_0
+0000000000039338 l     O .data	0000000000000008              __itt_model_task_end_2_ptr__3_0
+000000000000d760 l     F .text	0000000000000007              _ZNK3tbb6detail2r116lifetime_control22is_first_arg_preferredEmm
+000000000001d180 l     F .text	0000000000000095              _ZL35__itt_counter_set_value_ex_init_3_0P14___itt_counterP19___itt_clock_domainyPv.lto_priv.0
+0000000000039198 l     O .data	0000000000000008              __itt_state_get_ptr__3_0
+000000000001be60 l     F .text	0000000000000085              _ZL29__itt_counter_inc_v3_init_3_0PK13___itt_domainP20___itt_string_handle.lto_priv.0
+0000000000017a90 l     F .text	00000000000003b4              _ZL31__itt_histogram_create_init_3_0PK13___itt_domainPKc19__itt_metadata_typeS4_.lto_priv.0
+000000000001dc60 l     F .text	000000000000008d              _ZL37__itt_task_end_overlapped_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_id.lto_priv.0
+000000000001d060 l     F .text	0000000000000085              _ZL32__itt_counter_dec_delta_init_3_0P14___itt_countery.lto_priv.0
+000000000001b960 l     F .text	0000000000000085              _ZL27__itt_region_begin_init_3_0PK13___itt_domain9___itt_idS2_P20___itt_string_handle.lto_priv.0
+00000000000392f0 l     O .data	0000000000000008              __itt_heap_free_begin_ptr__3_0
+000000000006f58e l       .debug_info	0000000000000000              address_waiter.cpp.459e3aa4
+0000000000039430 l     O .data	0000000000000008              __itt_counter_create_ptr__3_0
+000000000018168c l       .debug_info	0000000000000000              rml_tbb.cpp.f674f606
+0000000000050508 l     O .bss	0000000000000008              _ZN3tbb6detail2r1L12process_maskE.lto_priv.0
+0000000000014ff0 l     F .text	000000000000034d              _ZN3tbb6detail2r18governor20init_external_threadEv
+00000000000393d0 l     O .data	0000000000000008              __itt_model_site_begin_ptr__3_0
+000000000015a914 l       .debug_info	0000000000000000              parallel_pipeline.cpp.2735c9df
+00000000000391a8 l     O .data	0000000000000008              __itt_memory_write_ptr__3_0
+00000000000390a0 l     O .data	0000000000000008              __itt_task_begin_overlapped_ptr__3_0
+000000000001e0c0 l     F .text	000000000000008f              _ZL27__itt_track_create_init_3_0P18___itt_track_groupP20___itt_string_handle17___itt_track_type.lto_priv.0
+0000000000038378 l     O .data.rel.ro	0000000000000028              _ZTIN3tbb6detail2d14taskE
+0000000000039318 l     O .data	0000000000000008              __itt_model_disable_push_ptr__3_0
+00000000000183f0 l     F .text	0000000000000009              _ZN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex4lockEvEUlvE_ED0Ev
+0000000000039158 l     O .data	0000000000000008              __itt_counter_destroy_ptr__3_0
+000000000001b6e0 l     F .text	0000000000000075              _ZL35__itt_heap_reset_detection_init_3_0j.lto_priv.0
+000000000001e7e0 l     F .text	0000000000000075              _ZL25__itt_thr_ignore_init_3_0v.lto_priv.0
+0000000000039210 l     O .data	0000000000000008              __itt_metadata_str_add_ptr__3_0
+000000000001ab10 l     F .text	000000000000007d              _ZL32__itt_model_task_beginA_init_3_0PKc.lto_priv.0
+000000000001aa00 l     F .text	000000000000007d              _ZL32__itt_model_site_beginA_init_3_0PKc.lto_priv.0
+0000000000039098 l     O .data	0000000000000008              __itt_task_begin_overlapped_ex_ptr__3_0
+000000000001c4b0 l     F .text	0000000000000077              _ZL24__itt_event_end_init_3_0i.lto_priv.0
+000000000001c910 l     F .text	0000000000000085              _ZL27__itt_memory_write_init_3_0Pvm.lto_priv.0
+00000000000c0958 l       .debug_info	0000000000000000              concurrent_bounded_queue.cpp.56e302ca
+0000000000038368 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2d111task_traitsE
+000000000000e7e0 l     F .text	0000000000000017              _ZN3tbb6detail2r110user_abortD2Ev.lto_priv.0
+0000000000039078 l     O .data	0000000000000008              __itt_metadata_add_with_scope_ptr__3_0
+0000000000026360 l     F .text	00000000000000d6              _ZN3tbb6detail2r115task_dispatcher6resumeERS2_
+00000000000390e8 l     O .data	0000000000000008              __itt_stack_callee_enter_ptr__3_0
+000000000002d480 l     O .rodata	000000000000001d              _ZTSN3tbb6detail2r110user_abortE
+000000000001b860 l     F .text	000000000000007d              _ZL25__itt_id_destroy_init_3_0PK13___itt_domain9___itt_id.lto_priv.0
+000000000001bf80 l     F .text	0000000000000085              _ZL29__itt_counter_dec_v3_init_3_0PK13___itt_domainP20___itt_string_handle.lto_priv.0
+000000000000c8f2 l     F .text	0000000000000051              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE7_clEv.constprop.0
+000000000001b4e0 l     F .text	0000000000000075              _ZL41__itt_heap_internal_access_begin_init_3_0v.lto_priv.0
+00000000000391c0 l     O .data	0000000000000008              __itt_notify_sync_acquired_ptr__3_0
+00000000000104f0 l     F .text	00000000000000c4              _ZN3tbb6detail2r115control_storage12active_valueEv
+000000000002d440 l     O .rodata	000000000000001e              _ZTSN3tbb6detail2r111unsafe_waitE
+00000000000393f8 l     O .data	0000000000000008              __itt_thr_ignore_ptr__3_0
+000000000000d8b0 l     F .text	000000000000003f              _ZN3tbb6detail2r110sleep_nodeINS1_15address_contextEE6notifyEv
+0000000000039380 l     O .data	0000000000000008              __itt_model_observe_uses_ptr__3_0
+000000000000c996 l     F .text	0000000000000051              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE3_clEv.constprop.0
+000000000001d7c0 l     F .text	000000000000008d              _ZL27__itt_id_create_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_id.lto_priv.0
+000000000001a380 l     F .text	000000000000008d              _ZL31__itt_model_site_begin_init_3_0PPvS0_PKc.lto_priv.0
+000000000001c0a0 l     F .text	000000000000008d              _ZL21__itt_marker_init_3_0PK13___itt_domain9___itt_idP20___itt_string_handle11__itt_scope.lto_priv.0
+000000000001b9f0 l     F .text	000000000000007d              _ZL25__itt_region_end_init_3_0PK13___itt_domain9___itt_id.lto_priv.0
+0000000000023360 l     F .text	000000000000043f              _ZN3tbb6detail2r16market13adjust_demandERNS1_5arenaEib
+0000000000019bc0 l     F .text	00000000000002df              _ZN3tbb6detail2r123DoOneTimeInitializationEv
+0000000000023030 l     F .text	000000000000001d              _ZN3tbb6detail2r13rml14private_server25adjust_job_count_estimateEi
+0000000000039360 l     O .data	0000000000000008              __itt_model_task_beginA_ptr__3_0
+000000000000ffd0 l     F .text	0000000000000055              _ZN3tbb6detail2d110spin_mutex4lockEv
+000000000003ac10 l     O .data	0000000000000008              __itt_sync_acquired_ptr__3_0
+0000000000135e0d l       .debug_info	0000000000000000              misc.cpp.4ff65d60
+000000000001bd50 l     F .text	0000000000000085              _ZL28__itt_task_begin_fn_init_3_0PK13___itt_domain9___itt_idS2_Pv.lto_priv.0
+00000000000d3136 l       .debug_info	0000000000000000              governor.cpp.9fce1b49
+0000000000018ec0 l     F .text	000000000000007e              _ZN3tbb6detail2d021timed_spin_wait_untilIZNS0_2d18rw_mutex11lock_sharedEvEUlvE_EEbT_
+000000000007b38d l       .debug_info	0000000000000000              allocator.cpp.4f05767a
+00000000000124e0 l     F .text	000000000000013d              _ZN3tbb6detail2d15mutex4lockEv
+000000000002d760 l     O .rodata	0000000000000046              _ZTSN3tbb6detail2r141circular_doubly_linked_list_with_sentinel9base_nodeE
+000000000000e7e0 l     F .text	0000000000000017              _ZN3tbb6detail2r110user_abortD1Ev.lto_priv.0
+0000000000018c00 l     F .text	0000000000000078              _ZN3tbb6detail2r114__TBB_InitOnce7add_refEv
+0000000000016240 l     F .text	000000000000000c              _ZNK3tbb6detail2r16market14min_stack_sizeEv
+000000000000df80 l     F .text	0000000000000064              _ZNK3tbb6detail2r127allowed_parallelism_control13default_valueEv
+000000000001b8e0 l     F .text	0000000000000077              _ZL28__itt_get_timestamp_init_3_0v.lto_priv.0
+0000000000011430 l     F .text	0000000000000034              _ZN3tbb6detail2r116lifetime_controlD2Ev
+00000000000108e0 l     F .text	00000000000001ec              _ZN3tbb6detail2r111task_streamILNS1_25task_stream_accessor_typeE1EE12pop_specificERjl
+00000000000392c8 l     O .data	0000000000000008              __itt_heap_internal_access_end_ptr__3_0
+00000000000393b8 l     O .data	0000000000000008              __itt_model_task_end_ptr__3_0
+000000000000ea70 l     F .text	0000000000000010              _ZN3tbb6detail2r127allowed_parallelism_control12apply_activeEm
+00000000000393e0 l     O .data	0000000000000008              __itt_fsync_acquired_ptr__3_0
+0000000000050551 l     O .bss	0000000000000001              _ZN3tbb6detail2r18governor17is_rethrow_brokenE
+000000000002ae20 l     F .text	0000000000000761              _ZN3tbb6detail2r16market12create_arenaEiijm.constprop.0
+0000000000039250 l     O .data	0000000000000008              __itt_task_begin_fn_ptr__3_0
+00000000000251c0 l     F .text	0000000000000164              _ZN3tbb6detail2r16market14add_ref_unsafeERNS0_2d118unique_scoped_lockINS3_10spin_mutexEEEbjm.constprop.0
+00000000000113f0 l     F .text	0000000000000034              _ZN3tbb6detail2r130terminate_on_exception_controlD2Ev
+0000000000020180 l     F .text	00000000000007bb              _ZN3tbb6detail2r16market17try_destroy_arenaEPNS1_5arenaEmj
+000000000000c11a l     F .text	000000000000000d              _ZN3tbb6detail2d15mutex6unlockEv
+00000000000382e8 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2d113delegate_baseE
+0000000000039038 l     O .data	0000000000000008              __itt_av_save_ptr__3_0
+0000000000016bb0 l     F .text	000000000000035f              _ZL28__itt_domain_create_init_3_0PKc.lto_priv.0
+000000000000e880 l     F .text	0000000000000013              _ZN3tbb6detail2r111unsafe_waitD1Ev.lto_priv.0
+00000000000390c0 l     O .data	0000000000000008              __itt_id_destroy_ex_ptr__3_0
+000000000000c46a l     F .text	0000000000000030              _ZN3tbb6detail2r120context_guard_helperILb1EED1Ev
+000000000001c880 l     F .text	0000000000000085              _ZL26__itt_memory_read_init_3_0Pvm.lto_priv.0
+0000000000018eb0 l     F .text	0000000000000005              _ZN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_ED2Ev.lto_priv.0
+0000000000038420 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2r141circular_doubly_linked_list_with_sentinel9base_nodeE
+000000000001e150 l     F .text	000000000000007d              _ZL24__itt_set_track_init_3_0P12___itt_track.lto_priv.0
+0000000000039088 l     O .data	0000000000000008              __itt_task_end_overlapped_ex_ptr__3_0
+000000000001c530 l     F .text	0000000000000095              _ZL28__itt_sync_set_name_init_3_0PvPKcS1_i.lto_priv.0
+000000000001ac20 l     F .text	000000000000007d              _ZL36__itt_model_iteration_taskA_init_3_0PKc.lto_priv.0
+00000000000a6a7c l       .debug_info	0000000000000000              arena_slot.cpp.a9caae46
+000000000001e700 l     F .text	0000000000000051              _ZL27__itt_thr_name_set_init_3_0PKci.lto_priv.0
+00000000000146e0 l     F .text	0000000000000116              _ZN3tbb6detail2r115task_dispatcher17get_critical_taskEPNS0_2d14taskERNS1_18execution_data_extElb
+0000000000039410 l     O .data	0000000000000008              __itt_thread_set_name_ptr__3_0
+000000000001e2f0 l     F .text	000000000000008d              _ZL26__itt_module_load_init_3_0PvS_PKc.lto_priv.0
+000000000020e8f9 l       .debug_info	0000000000000000              queuing_rw_mutex.cpp.b516a522
+000000000000e830 l     F .text	0000000000000017              _ZN3tbb6detail2r114bad_last_allocD1Ev.lto_priv.0
+000000000001ca30 l     F .text	0000000000000077              _ZL24__itt_state_get_init_3_0v.lto_priv.0
+0000000000039070 l     O .data	0000000000000008              __itt_metadata_str_add_with_scope_ptr__3_0
+0000000000140ee8 l       .debug_info	0000000000000000              observer_proxy.cpp.d5d53c69
+0000000000039398 l     O .data	0000000000000008              __itt_model_record_deallocation_ptr__3_0
+00000000000104e0 l     F .text	0000000000000005              _ZN3tbb6detail2r110task_proxyD1Ev.lto_priv.0
+00000000000391d8 l     O .data	0000000000000008              __itt_notify_sync_name_ptr__3_0
+000000000001a8f0 l     F .text	0000000000000085              _ZL33__itt_model_observe_uses_init_3_0Pvm.lto_priv.0
+000000000003b380 l     O .bss	0000000000000080              _ZN3tbb6detail2r1L23allowed_parallelism_ctlE.lto_priv.0
+000000000001e580 l     F .text	0000000000000075              _ZL20__itt_pause_init_3_0v.lto_priv.0
+000000000000c944 l     F .text	0000000000000051              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE6_clEv.constprop.0
+000000000001b660 l     F .text	0000000000000075              _ZL44__itt_heap_record_memory_growth_end_init_3_0v.lto_priv.0
+000000000001a6c0 l     F .text	0000000000000085              _ZL38__itt_model_record_allocation_init_3_0Pvm.lto_priv.0
+000000000003b408 l     O .bss	0000000000000001              _ZN3tbb6detail2r16market14theMarketMutexE
+000000000001d2a0 l     F .text	0000000000000087              _ZL19__itt_mark_init_3_0iPKc.lto_priv.0
+000000000000e830 l     F .text	0000000000000017              _ZN3tbb6detail2r114bad_last_allocD2Ev.lto_priv.0
+000000000003b400 l     O .bss	0000000000000008              _ZN3tbb6detail2r16market9theMarketE
+0000000000013940 l     F .text	0000000000000021              _ZN3tbb6detail2r111resume_node6notifyEv
+000000000001de50 l     F .text	00000000000000a5              _ZL42__itt_metadata_str_add_with_scope_init_3_0PK13___itt_domain11__itt_scopeP20___itt_string_handlePKcm.lto_priv.0
+000000000001a210 l     F .text	0000000000000070              ITT_DoOneTimeInitialization
+0000000000018400 l     F .text	0000000000000009              _ZN3tbb6detail2d118delegated_functionIZNS1_8rw_mutex11lock_sharedEvEUlvE_ED0Ev
+000000000001c780 l     F .text	000000000000007d              _ZL35__itt_notify_sync_acquired_init_3_0Pv.lto_priv.0
+0000000000025330 l     F .text	00000000000000db              _ZN3tbb6detail2r115affinity_helper21protect_affinity_maskEb.part.0.constprop.0
+000000000000ff50 l     F .text	000000000000007d              _ZN3tbb6detail2r18governor19default_num_threadsEv
+000000000008161e l       .debug_info	0000000000000000              arena.cpp.c571db62
+000000000002d700 l     O .rodata	0000000000000032              _ZTSN3tbb6detail2r19wait_nodeINS1_14market_contextEEE
+0000000000016230 l     F .text	0000000000000008              _ZNK3tbb6detail2r16market13max_job_countEv
+00000000000199f0 l     F .text	000000000000013b              _ZN3tbb6detail2r121PrintExtraVersionInfoEPKcS3_z
+0000000000038548 l     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2r111unsafe_waitE
+0000000000014800 l     F .text	00000000000004af              _ZN3tbb6detail2r115task_dispatcher21receive_or_steal_taskILb1ENS1_23outermost_worker_waiterEEEPNS0_2d14taskERNS1_11thread_dataERNS1_18execution_data_extERT0_lbb
+0000000000050540 l     O .bss	0000000000000008              _ZZN3tbb6detail2r18governor17default_page_sizeEvE9page_size
+000000000001d530 l     F .text	000000000000007d              _ZL35__itt_stack_caller_destroy_init_3_0P13___itt_caller.lto_priv.0
+00000000000392d8 l     O .data	0000000000000008              __itt_heap_reallocate_end_ptr__3_0
+000000000000dec0 l     F .text	0000000000000009              _ZN3tbb6detail2r118suspend_point_type11resume_taskD0Ev
+0000000000038aa0 l     O .got	0000000000000000              _GLOBAL_OFFSET_TABLE_
+00000000000113b0 l     F .text	0000000000000034              _ZN3tbb6detail2r118stack_size_controlD2Ev
+000000000000c84e l     F .text	0000000000000051              _ZZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idEENKUlvE8_clEv.constprop.0
+0000000000011370 l     F .text	0000000000000034              _ZN3tbb6detail2r127allowed_parallelism_controlD1Ev.lto_priv.0
+000000000001e240 l     F .text	00000000000000a7              _ZL22__itt_av_save_init_3_0PviPKiiPKci.lto_priv.0
+0000000000038260 l     O .data.rel.ro	0000000000000010              _ZTIN3tbb6detail2r115control_storageE
+000000000013b9ac l       .debug_info	0000000000000000              misc_ex.cpp.1ce0152b
+0000000000014130 l     F .text	000000000000027f              _ZN3tbb6detail2r115task_dispatcher26get_inbox_or_critical_taskERNS1_18execution_data_extERNS1_10mail_inboxElb
+000000000001ce50 l     F .text	000000000000007d              _ZL30__itt_counter_destroy_init_3_0P14___itt_counter.lto_priv.0
+000000000000d970 l     F .text	0000000000000060              _ZN3tbb6detail2r110sleep_nodeINS1_14market_contextEE5resetEv
+000000000000de20 l     F .text	0000000000000009              _ZN3tbb6detail2r110task_proxyD0Ev
+0000000000025860 l     F .text	0000000000000094              _ZN3tbb6detail2r122small_object_pool_impl7destroyEv
+000000000001aca0 l     F .text	0000000000000085              _ZL37__itt_model_iteration_taskAL_init_3_0PKcm.lto_priv.0
+000000000018b9d1 l       .debug_info	0000000000000000              rtm_rw_mutex.cpp.96e22166
+000000000001d980 l     F .text	0000000000000095              _ZL31__itt_task_begin_fn_ex_init_3_0PK13___itt_domainP19___itt_clock_domainy9___itt_idS4_Pv.lto_priv.0
+000000000000c128 l     F .text	0000000000000010              _ZN3tbb6detail2d118unique_scoped_lockINS1_10spin_mutexEED1Ev
+000000000001e680 l     F .text	000000000000007d              _ZL30__itt_thread_set_name_init_3_0PKc.lto_priv.0
+0000000000037c60 l     O .data.rel.ro	0000000000000008              _ZN3tbb6detail2r118SyncType_SchedulerE
+0000000000039298 l     O .data	0000000000000008              __itt_id_destroy_ptr__3_0
+0000000000019f20 l     F .text	000000000000015e              _ZN3tbb6detail2r113observer_list25do_notify_entry_observersERPNS1_14observer_proxyEb
+0000000000037e80 l     O .data.rel.ro	0000000000000050              _ZTVN3tbb6detail2r13rml14private_serverE
+0000000000016210 l     F .text	0000000000000005              _ZL28__itt_enable_attach_init_3_0v.lto_priv.0
+000000000000d770 l     F .text	0000000000000056              _ZN3tbb6detail2r116binary_semaphore1PEv
+000000000001bcc0 l     F .text	0000000000000085              _ZL25__itt_task_begin_init_3_0PK13___itt_domain9___itt_idS2_P20___itt_string_handle.lto_priv.0
+00000000000391a0 l     O .data	0000000000000008              __itt_memory_update_ptr__3_0
+00000000000390d8 l     O .data	0000000000000008              __itt_clock_domain_create_ptr__3_0
+000000000001af30 l     F .text	000000000000007d              _ZL35__itt_model_aggregate_task_init_3_0m.lto_priv.0
+0000000000018e30 l     F .text	0000000000000069              _ZN3tbb6detail2r16market22update_workers_requestEv
+000000000001aeb0 l     F .text	000000000000007d              _ZL35__itt_model_lock_release_2_init_3_0Pv.lto_priv.0
+000000000001e400 l     F .text	0000000000000095              _ZL31__itt_histogram_submit_init_3_0P16___itt_histogrammPvS1_.lto_priv.0
+0000000000000000       F *UND*	0000000000000000              _Znam@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              __errno_location@GLIBC_2.2.5
+0000000000023f80 g     F .text	00000000000001b6              _ZN3tbb6detail2r17upgradeERNS0_2d112rtm_rw_mutex11scoped_lockE
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutexattr_init@GLIBC_2.34
+000000000001eb70 g     F .text	00000000000000bd              _ZN3tbb6detail2r120itt_metadata_ptr_addENS0_2d115itt_domain_enumEPvyNS0_2d021string_resource_indexES4_
+0000000000000000       F *UND*	0000000000000000              syscall@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSt15__exception_ptr13exception_ptr9_M_addrefEv@CXXABI_1.3.13
+00000000000278d0 g     F .text	00000000000000c8              _ZN3tbb6detail2r15spawnERNS0_2d14taskERNS2_18task_group_contextE
+0000000000025700 g     F .text	00000000000000b1              _ZN3tbb6detail2r18allocateERPNS0_2d117small_object_poolEm
+0000000000000000       F *UND*	0000000000000000              _ZNSt12out_of_rangeC1EPKc@GLIBCXX_3.4.21
+0000000000038598 g     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2r110user_abortE
+0000000000000000       F *UND*	0000000000000000              _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4
+0000000000026b40 g     F .text	000000000000015a              _ZN3tbb6detail2r122cancel_group_executionERNS0_2d118task_group_contextE
+0000000000000000       F *UND*	0000000000000000              pthread_setspecific@GLIBC_2.34
+0000000000000000  w      *UND*	0000000000000000              __TBB_call_with_my_server_info
+0000000000015560 g     F .text	0000000000000072              _ZN3tbb6detail2r14waitERNS0_2d115task_arena_baseE
+0000000000000000       F *UND*	0000000000000000              swapcontext@GLIBC_2.2.5
+000000000001ea90 g     F .text	00000000000000db              _ZN3tbb6detail2r120itt_metadata_str_addENS0_2d115itt_domain_enumEPvyNS0_2d021string_resource_indexEPKc
+0000000000000000       F *UND*	0000000000000000              _ZSt9terminatev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              nanosleep@GLIBC_2.2.5
+000000000002b660 g     F .text	0000000000000049              _ZN3tbb6detail2r15resetERNS0_2d118task_group_contextE
+0000000000024520 g     F .text	0000000000000042              _ZN3tbb6detail2r115current_contextEv
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_apply_affinity
+0000000000000000       F *UND*	0000000000000000              strerror@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              __gcc_personality_v0@GCC_3.3.1
+0000000000000000       F *UND*	0000000000000000              makecontext@GLIBC_2.2.5
+0000000000024c30 g     F .text	000000000000038f              _ZN3tbb6detail2r117upgrade_to_writerERNS0_2d116queuing_rw_mutex11scoped_lockE
+000000000001efe0 g     F .text	0000000000000122              _ZN3tbb6detail2r17acquireERNS0_2d19rtm_mutexERNS3_11scoped_lockEb
+0000000000000000       F *UND*	0000000000000000              _ZNSt13runtime_errorC1EPKc@GLIBCXX_3.4.21
+00000000000242b0 g     F .text	000000000000006f              _ZN3tbb6detail2r17releaseERNS0_2d112rtm_rw_mutex11scoped_lockE
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_destroy_system_topology
+0000000000000000       F *UND*	0000000000000000              __cxa_begin_catch@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              strspn@GLIBC_2.2.5
+0000000000024fc0 g     F .text	000000000000000e              _ZN3tbb6detail2r19is_writerERKNS0_2d116queuing_rw_mutex11scoped_lockE
+0000000000000000  w    F *UND*	0000000000000000              __cxa_finalize@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              strlen@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              memcmp@GLIBC_2.2.5
+0000000000000000  w      *UND*	0000000000000000              scalable_malloc
+00000000000128e0 g     F .text	000000000000006a              _ZN3tbb6detail2r122cache_aligned_allocateEm
+0000000000000000       F *UND*	0000000000000000              __strncat_chk@GLIBC_2.3.4
+0000000000000000       F *UND*	0000000000000000              dladdr@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              __cxa_allocate_exception@CXXABI_1.3
+000000000000f810 g     F .text	00000000000001e1              _ZN3tbb6detail2r117notify_by_addressEPvm
+00000000000385c0 g     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2r112missing_waitE
+0000000000025950 g     F .text	0000000000000040              _ZN3tbb6detail2r110deallocateERNS0_2d117small_object_poolEPvmRKNS2_14execution_dataE
+000000000001ee10 g     F .text	0000000000000056              _ZN3tbb6detail2r112itt_task_endENS0_2d115itt_domain_enumE
+0000000000000000       F *UND*	0000000000000000              getcwd@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              strncpy@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZSt20__throw_length_errorPKc@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              memset@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              abort@GLIBC_2.2.5
+000000000001ec30 g     F .text	00000000000000c8              _ZN3tbb6detail2r116itt_relation_addENS0_2d115itt_domain_enumEPvyNS0_2d012itt_relationES4_y
+0000000000000000       F *UND*	0000000000000000              munmap@GLIBC_2.2.5
+0000000000024620 g     F .text	000000000000025e              _ZN3tbb6detail2r17acquireERNS0_2d116queuing_rw_mutexERNS3_11scoped_lockEb
+0000000000011360 g     F .text	000000000000000a              _ZN3tbb6detail2r128constraints_threads_per_coreERKNS0_2d111constraintsEl
+000000000000feb0 g     F .text	0000000000000011              _ZN3tbb6detail2r117deallocate_memoryEPv
+0000000000000000       F *UND*	0000000000000000              __strncpy_chk@GLIBC_2.3.4
+0000000000000000       F *UND*	0000000000000000              _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              _ZNSt9bad_allocD1Ev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              __cxa_guard_abort@CXXABI_1.3
+0000000000027ba0 g     F .text	00000000000003c3              _ZN3tbb6detail2r16submitERNS0_2d14taskERNS2_18task_group_contextEPNS1_5arenaEm
+0000000000000000  w      *UND*	0000000000000000              scalable_free
+0000000000000000       F *UND*	0000000000000000              __cxa_guard_release@CXXABI_1.3
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_initialize_system_topology
+0000000000000000       F *UND*	0000000000000000              sysconf@GLIBC_2.2.5
+000000000001f110 g     F .text	000000000000008e              _ZN3tbb6detail2r111try_acquireERNS0_2d19rtm_mutexERNS3_11scoped_lockE
+0000000000000000       F *UND*	0000000000000000              getcontext@GLIBC_2.2.5
+0000000000012b40 g     F .text	0000000000000060              _ZN3tbb6detail2r126allocate_bounded_queue_repEm
+000000000001a1e0 g     F .text	0000000000000024              _ZN3tbb6detail2r116set_end_of_inputERNS0_2d111base_filterE
+0000000000000000       F *UND*	0000000000000000              _ZSt20__throw_system_errori@GLIBCXX_3.4.11
+00000000000248f0 g     F .text	0000000000000333              _ZN3tbb6detail2r17releaseERNS0_2d116queuing_rw_mutex11scoped_lockE
+0000000000024600 g     F .text	000000000000000a              TBB_runtime_interface_version
+000000000001e920 g     F .text	0000000000000162              _ZN3tbb6detail2r119itt_make_task_groupENS0_2d115itt_domain_enumEPvyS4_yNS0_2d021string_resource_indexE
+0000000000000000       F *UND*	0000000000000000              pthread_getattr_np@GLIBC_2.32
+000000000000fa00 g     F .text	0000000000000188              _ZN3tbb6detail2r121notify_by_address_oneEPv
+0000000000000000       O *UND*	0000000000000000              _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              pthread_detach@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              __cxa_free_exception@CXXABI_1.3
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_allocate_binding_handler
+0000000000000000         *UND*	0000000000000000              _ZSt15__once_callable@GLIBCXX_3.4.11
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutex_unlock@GLIBC_2.2.5
+00000000000279a0 g     F .text	00000000000001f2              _ZN3tbb6detail2r15spawnERNS0_2d14taskERNS2_18task_group_contextEt
+0000000000000000       F *UND*	0000000000000000              sched_setaffinity@GLIBC_2.3.4
+0000000000000000       F *UND*	0000000000000000              dlclose@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              __vsnprintf_chk@GLIBC_2.3.4
+0000000000000000       F *UND*	0000000000000000              memcpy@GLIBC_2.14
+0000000000000000       F *UND*	0000000000000000              _ZNSt15__exception_ptr13exception_ptr10_M_releaseEv@CXXABI_1.3.13
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_deallocate_binding_handler
+000000000000fe90 g     F .text	000000000000000a              _ZN3tbb6detail2r115cache_line_sizeEv
+0000000000000000       F *UND*	0000000000000000              __cxa_atexit@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              pthread_self@GLIBC_2.2.5
+0000000000038570 g     O .data.rel.ro	0000000000000028              _ZTVN3tbb6detail2r114bad_last_allocE
+0000000000000000       F *UND*	0000000000000000              pthread_join@GLIBC_2.34
+0000000000000000       O *UND*	0000000000000000              _ZTVSt9bad_alloc@GLIBCXX_3.4
+000000000001e900 g     F .text	0000000000000019              _ZN3tbb6detail2r117itt_set_sync_nameEPvPKc
+00000000000157a0 g     F .text	0000000000000009              _ZN3tbb6detail2r17enqueueERNS0_2d14taskERNS2_18task_group_contextEPNS2_15task_arena_baseE
+0000000000015790 g     F .text	000000000000000e              _ZN3tbb6detail2r17enqueueERNS0_2d14taskEPNS2_15task_arena_baseE
+0000000000022980 g     F .text	00000000000002ae              _ZN3tbb6detail2r117parallel_pipelineERNS0_2d118task_group_contextEmRKNS2_11filter_nodeE
+0000000000038288 g     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r111unsafe_waitE
+0000000000000000       F *UND*	0000000000000000              pthread_once@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              dlsym@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              dlerror@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              _ZdlPv@GLIBCXX_3.4
+0000000000015340 g     F .text	000000000000021c              _ZN3tbb6detail2r110initializeERNS0_2d115task_arena_baseE
+0000000000000000       F *UND*	0000000000000000              _Znwm@GLIBCXX_3.4
+0000000000010460 g     F .text	000000000000007b              _ZN3tbb6detail2r16attachERNS0_2d115task_arena_baseE
+0000000000000000       F *UND*	0000000000000000              _ZNSt12length_errorD1Ev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              _ZNSt13runtime_errorD1Ev@GLIBCXX_3.4
+0000000000018f40 g     F .text	00000000000000f2              _ZN3tbb6detail2r117assertion_failureEPKciS3_S3_
+0000000000013490 g     F .text	0000000000000383              _ZN3tbb6detail2r18finalizeERNS0_2d121task_scheduler_handleEl
+0000000000000000       F *UND*	0000000000000000              _ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE@CXXABI_1.3.3
+000000000002b590 g     F .text	00000000000000c5              _ZN3tbb6detail2r17destroyERNS0_2d118task_group_contextE
+0000000000000000       F *UND*	0000000000000000              _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4
+0000000000012e90 g     F .text	0000000000000043              _ZN3tbb6detail2r13getERNS0_2d121task_scheduler_handleE
+00000000000382d0 g     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r114bad_last_allocE
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_restore_affinity
+0000000000000000  w      *UND*	0000000000000000              __RML_open_factory
+000000000001e890 g     F .text	000000000000006e              _ZN3tbb6detail2r115call_itt_notifyEiPv
+0000000000024200 g     F .text	00000000000000af              _ZN3tbb6detail2r118try_acquire_readerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockE
+0000000000000000  w      *UND*	0000000000000000              __TBB_internal_get_default_concurrency
+0000000000000000       F *UND*	0000000000000000              _ZSt17current_exceptionv@CXXABI_1.3.3
+0000000000000000       F *UND*	0000000000000000              _ZNSt9bad_allocD2Ev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              strrchr@GLIBC_2.2.5
+00000000000257c0 g     F .text	0000000000000098              _ZN3tbb6detail2r18allocateERPNS0_2d117small_object_poolEmRKNS2_14execution_dataE
+0000000000000000       F *UND*	0000000000000000              _ZNSt13runtime_errorD2Ev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              __stack_chk_fail@GLIBC_2.4
+0000000000012be0 g     F .text	00000000000002ad              _ZN3tbb6detail2r16createERNS0_2d114global_controlE
+0000000000000000  w      *UND*	0000000000000000              scalable_aligned_malloc
+0000000000011310 g     F .text	0000000000000018              _ZN3tbb6detail2r115core_type_countEl
+0000000000000000       F *UND*	0000000000000000              _ZNSt12length_errorC1EPKc@GLIBCXX_3.4.21
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutex_destroy@GLIBC_2.2.5
+0000000000000000         *UND*	0000000000000000              _ZSt11__once_call@GLIBCXX_3.4.11
+0000000000000000       F *UND*	0000000000000000              fflush@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              pthread_key_delete@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              free@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              pthread_attr_init@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              getenv@GLIBC_2.2.5
+0000000000016180 g     F .text	0000000000000009              _ZN3tbb6detail2r17executeERNS0_2d115task_arena_baseERNS2_13delegate_baseE
+000000000001ee70 g     F .text	00000000000000d1              _ZN3tbb6detail2r116itt_region_beginENS0_2d115itt_domain_enumEPvyS4_yNS0_2d021string_resource_indexE
+00000000000114d0 g     F .text	00000000000001a7              _ZN3tbb6detail2r131constraints_default_concurrencyERKNS0_2d111constraintsEl
+0000000000000000       O *UND*	0000000000000000              _ZTISt9bad_alloc@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              _ZdaPv@GLIBCXX_3.4
+0000000000000000       O *UND*	0000000000000000              _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3
+00000000000382a0 g     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r112missing_waitE
+00000000000267c0 g     F .text	000000000000005c              _ZN3tbb6detail2r121current_suspend_pointEv
+0000000000011020 g     F .text	0000000000000026              _ZN3tbb6detail2r128abort_bounded_queue_monitorsEPNS1_18concurrent_monitorE
+0000000000000000       F *UND*	0000000000000000              malloc@GLIBC_2.2.5
+0000000000010fe0 g     F .text	000000000000003d              _ZN3tbb6detail2r128deallocate_bounded_queue_repEPhm
+000000000001f340 g     F .text	000000000000000c              _ZN3tbb6detail2r114acquire_writerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockEb
+0000000000000000       O *UND*	0000000000000000              stderr@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              pthread_attr_setstacksize@GLIBC_2.34
+00000000000103b0 g     F .text	00000000000000a3              _ZN3tbb6detail2r19terminateERNS0_2d115task_arena_baseE
+0000000000000000       F *UND*	0000000000000000              _ZNKSt13runtime_error4whatEv@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              dlopen@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              strcmp@GLIBC_2.2.5
+0000000000000000  w      *UND*	0000000000000000              __TBB_make_rml_server
+0000000000011260 g     F .text	0000000000000028              _ZN3tbb6detail2r117fill_numa_indicesEPi
+0000000000011290 g     F .text	000000000000007c              _ZN3tbb6detail2r124numa_default_concurrencyEi
+0000000000024fd0 g     F .text	00000000000000da              _ZN3tbb6detail2r119downgrade_to_readerERNS0_2d116queuing_rw_mutex11scoped_lockE
+0000000000000000       F *UND*	0000000000000000              _ZNSt12out_of_rangeD1Ev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              __cxa_throw_bad_array_new_length@CXXABI_1.3.8
+000000000002a0c0 g     F .text	0000000000000016              _ZN3tbb6detail2r116execute_and_waitERNS0_2d14taskERNS2_18task_group_contextERNS2_12wait_contextES6_
+0000000000024610 g     F .text	000000000000000c              TBB_runtime_version
+00000000000382b8 g     O .data.rel.ro	0000000000000018              _ZTIN3tbb6detail2r110user_abortE
+0000000000000000       F *UND*	0000000000000000              __cxa_rethrow@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              sched_yield@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              getpid@GLIBC_2.2.5
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutex_lock@GLIBC_2.2.5
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutexattr_settype@GLIBC_2.34
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutexattr_destroy@GLIBC_2.34
+000000000001e860 g     F .text	0000000000000021              _ZN3tbb6detail2r115create_itt_syncEPvPKcS4_
+0000000000000000  w    F *UND*	0000000000000000              pthread_mutex_init@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              sched_getaffinity@GLIBC_2.3.4
+0000000000024190 g     F .text	000000000000006d              _ZN3tbb6detail2r118try_acquire_writerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockE
+000000000002ad90 g     F .text	0000000000000081              _ZN3tbb6detail2r110initializeERNS0_2d118task_group_contextE
+0000000000000000       F *UND*	0000000000000000              pthread_getspecific@GLIBC_2.34
+0000000000011240 g     F .text	0000000000000018              _ZN3tbb6detail2r115numa_node_countEv
+0000000000012ba0 g     F .text	0000000000000039              _ZN3tbb6detail2r115allocate_memoryEm
+0000000000023e30 g     F .text	0000000000000142              _ZN3tbb6detail2r114acquire_readerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockEb
+00000000000245d0 g     F .text	0000000000000029              _ZN3tbb6detail2r119capture_fp_settingsERNS0_2d118task_group_contextE
+0000000000000000       F *UND*	0000000000000000              pthread_key_create@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              mprotect@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              __once_proxy@GLIBCXX_3.4.11
+000000000000fed0 g     F .text	000000000000003f              _ZN3tbb6detail2r117is_tbbmalloc_usedEv
+0000000000000000       F *UND*	0000000000000000              memalign@GLIBC_2.2.5
+00000000000245c0 g     F .text	000000000000000d              _ZN3tbb6detail2r128is_group_execution_cancelledERNS0_2d118task_group_contextE
+000000000001fdc0 g     F .text	00000000000003bd              _ZN3tbb6detail2r17observeERNS0_2d123task_scheduler_observerEb
+0000000000000000       F *UND*	0000000000000000              pthread_attr_getstack@GLIBC_2.34
+0000000000011990 g     F .text	0000000000000044              _ZN3tbb6detail2r127global_control_active_valueEi
+0000000000000000       F *UND*	0000000000000000              memmove@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              __cxa_end_catch@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              __fprintf_chk@GLIBC_2.3.4
+000000000001ed00 g     F .text	0000000000000110              _ZN3tbb6detail2r114itt_task_beginENS0_2d115itt_domain_enumEPvyS4_yNS0_2d021string_resource_indexE
+0000000000000000       F *UND*	0000000000000000              __gxx_personality_v0@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              _ZNSt16invalid_argumentD1Ev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              pthread_attr_destroy@GLIBC_2.2.5
+0000000000000000  w      *UND*	0000000000000000              scalable_aligned_free
+0000000000011b80 g     F .text	0000000000000504              _ZN3tbb6detail2r115wait_on_addressEPvRNS0_2d113delegate_baseEm
+0000000000000000       F *UND*	0000000000000000              __tls_get_addr@GLIBC_2.3
+0000000000024140 g     F .text	0000000000000049              _ZN3tbb6detail2r19downgradeERNS0_2d112rtm_rw_mutex11scoped_lockE
+0000000000000000       O *UND*	0000000000000000              _ZTISt12length_error@GLIBCXX_3.4
+000000000000fea0 g     F .text	000000000000000a              _ZN3tbb6detail2r124cache_aligned_deallocateEPv
+0000000000000000       F *UND*	0000000000000000              __cxa_throw@CXXABI_1.3
+0000000000011760 g     F .text	0000000000000221              _ZN3tbb6detail2r17destroyERNS0_2d114global_controlE
+0000000000000000       O *UND*	0000000000000000              _ZTISt12out_of_range@GLIBCXX_3.4
+0000000000000000       O *UND*	0000000000000000              _ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3
+0000000000000000  w      *UND*	0000000000000000              _ITM_deregisterTMCloneTable
+0000000000000000       F *UND*	0000000000000000              _Unwind_Resume@GCC_3.0
+0000000000000000       F *UND*	0000000000000000              mmap@GLIBC_2.2.5
+00000000000244e0 g     F .text	000000000000003d              _ZN3tbb6detail2r114execution_slotEPKNS0_2d114execution_dataE
+0000000000000000       O *UND*	0000000000000000              _ZTISt16invalid_argument@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              __cxa_guard_acquire@CXXABI_1.3
+0000000000011680 g     F .text	00000000000000dd              _ZN3tbb6detail2r115max_concurrencyEPKNS0_2d115task_arena_baseE
+0000000000000000       F *UND*	0000000000000000              pthread_create@GLIBC_2.34
+0000000000025990 g     F .text	000000000000008a              _ZN3tbb6detail2r110deallocateERNS0_2d117small_object_poolEPvm
+0000000000016190 g     F .text	0000000000000076              _ZN3tbb6detail2r120isolate_within_arenaERNS0_2d113delegate_baseEl
+00000000000250b0 g     F .text	0000000000000029              _ZN3tbb6detail2r19constructERNS0_2d116queuing_rw_mutexE
+0000000000024320 g     F .text	00000000000001be              _ZN3tbb6detail2r114notify_waitersEm
+000000000001f1a0 g     F .text	0000000000000042              _ZN3tbb6detail2r17releaseERNS0_2d19rtm_mutex11scoped_lockE
+0000000000000000       F *UND*	0000000000000000              _ZNSt9exceptionD2Ev@GLIBCXX_3.4
+000000000002a0e0 g     F .text	0000000000000011              _ZN3tbb6detail2r14waitERNS0_2d112wait_contextERNS2_18task_group_contextE
+0000000000011050 g     F .text	00000000000001e1              _ZN3tbb6detail2r128notify_bounded_queue_monitorEPNS1_18concurrent_monitorEmm
+0000000000025cd0 g     F .text	00000000000002ec              _ZN3tbb6detail2r16resumeEPNS1_18suspend_point_typeE
+0000000000013000 g     F .text	000000000000048d              _ZN3tbb6detail2r126wait_bounded_queue_monitorEPNS1_18concurrent_monitorEmlRNS0_2d113delegate_baseE
+000000000001ef50 g     F .text	000000000000008a              _ZN3tbb6detail2r114itt_region_endENS0_2d115itt_domain_enumEPvy
+0000000000000000       O *UND*	0000000000000000              _ZTISt9exception@GLIBCXX_3.4
+0000000000011330 g     F .text	0000000000000028              _ZN3tbb6detail2r122fill_core_type_indicesEPil
+0000000000000000       F *UND*	0000000000000000              _ZNSt13runtime_errorC2EPKc@GLIBCXX_3.4.21
+0000000000000000  w      *UND*	0000000000000000              __gmon_start__
+0000000000000000       F *UND*	0000000000000000              _ZNSt16invalid_argumentC1EPKc@GLIBCXX_3.4.21
+0000000000000000  w    F *UND*	0000000000000000              __cxa_pure_virtual@CXXABI_1.3
+0000000000000000  w      *UND*	0000000000000000              _ITM_registerTMCloneTable
+0000000000011a00 g     F .text	00000000000000f0              _ZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idE
+0000000000000000  w      *UND*	0000000000000000              __RML_close_factory
+0000000000024880 g     F .text	000000000000006a              _ZN3tbb6detail2r111try_acquireERNS0_2d116queuing_rw_mutexERNS3_11scoped_lockEb
+0000000000000000       F *UND*	0000000000000000              fwrite@GLIBC_2.2.5
+0000000000026a00 g     F .text	0000000000000077              _ZN3tbb6detail2r17suspendEPFvPvPNS1_18suspend_point_typeEES2_
+0000000000000000       O *UND*	0000000000000000              _ZTISt13runtime_error@GLIBCXX_3.4
+000000000000fb90 g     F .text	00000000000001c9              _ZN3tbb6detail2r121notify_by_address_allEPv
+
+
+DYNAMIC SYMBOL TABLE:
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _Znam
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) __errno_location
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.34) pthread_mutexattr_init
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) syscall
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3.13) _ZNSt15__exception_ptr13exception_ptr9_M_addrefEv
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.21) _ZNSt12out_of_rangeC1EPKc
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_setspecific
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_call_with_my_server_info
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) swapcontext
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZSt9terminatev
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) nanosleep
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_apply_affinity
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) strerror
+0000000000000000      DF *UND*	0000000000000000 (GCC_3.3.1)  __gcc_personality_v0
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) makecontext
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.21) _ZNSt13runtime_errorC1EPKc
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_destroy_system_topology
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_begin_catch
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) strspn
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.2.5) __cxa_finalize
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) strlen
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) memcmp
+0000000000000000  w   D  *UND*	0000000000000000  Base        scalable_malloc
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3.4) __strncat_chk
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) dladdr
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_allocate_exception
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) getcwd
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) strncpy
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZSt20__throw_length_errorPKc
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) memset
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) abort
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) munmap
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3.4) __strncpy_chk
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt9bad_allocD1Ev
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_guard_abort
+0000000000000000  w   D  *UND*	0000000000000000  Base        scalable_free
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_guard_release
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_initialize_system_topology
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) sysconf
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) getcontext
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.11) _ZSt20__throw_system_errori
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.32) pthread_getattr_np
+0000000000000000      DO *UND*	0000000000000000 (CXXABI_1.3) _ZTVN10__cxxabiv117__class_type_infoE
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_detach
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_free_exception
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_allocate_binding_handler
+0000000000000000      D  *UND*	0000000000000000 (GLIBCXX_3.4.11) _ZSt15__once_callable
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_mutex_unlock
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3.4) sched_setaffinity
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) dlclose
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3.4) __vsnprintf_chk
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.14) memcpy
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3.13) _ZNSt15__exception_ptr13exception_ptr10_M_releaseEv
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_deallocate_binding_handler
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) __cxa_atexit
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_self
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_join
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTVSt9bad_alloc
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_once
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) dlsym
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) dlerror
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZdlPv
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _Znwm
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt12length_errorD1Ev
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt13runtime_errorD1Ev
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3.3) _ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_restore_affinity
+0000000000000000  w   D  *UND*	0000000000000000  Base        __RML_open_factory
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_internal_get_default_concurrency
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3.3) _ZSt17current_exceptionv
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt9bad_allocD2Ev
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) strrchr
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt13runtime_errorD2Ev
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.4)  __stack_chk_fail
+0000000000000000  w   D  *UND*	0000000000000000  Base        scalable_aligned_malloc
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.21) _ZNSt12length_errorC1EPKc
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_mutex_destroy
+0000000000000000      D  *UND*	0000000000000000 (GLIBCXX_3.4.11) _ZSt11__once_call
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) fflush
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_key_delete
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) free
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_attr_init
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) getenv
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTISt9bad_alloc
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZdaPv
+0000000000000000      DO *UND*	0000000000000000 (CXXABI_1.3) _ZTVN10__cxxabiv120__si_class_type_infoE
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) malloc
+0000000000000000      DO *UND*	0000000000000000 (GLIBC_2.2.5) stderr
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_attr_setstacksize
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNKSt13runtime_error4whatEv
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) dlopen
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) strcmp
+0000000000000000  w   D  *UND*	0000000000000000  Base        __TBB_make_rml_server
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt12out_of_rangeD1Ev
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3.8) __cxa_throw_bad_array_new_length
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_rethrow
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) sched_yield
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) getpid
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_mutex_lock
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.34) pthread_mutexattr_settype
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.34) pthread_mutexattr_destroy
+0000000000000000  w   DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_mutex_init
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3.4) sched_getaffinity
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_getspecific
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_key_create
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) mprotect
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.11) __once_proxy
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) memalign
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_attr_getstack
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) memmove
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_end_catch
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3.4) __fprintf_chk
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __gxx_personality_v0
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt16invalid_argumentD1Ev
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) pthread_attr_destroy
+0000000000000000  w   D  *UND*	0000000000000000  Base        scalable_aligned_free
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.3)  __tls_get_addr
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTISt12length_error
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_throw
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTISt12out_of_range
+0000000000000000      DO *UND*	0000000000000000 (CXXABI_1.3) _ZTVN10__cxxabiv121__vmi_class_type_infoE
+0000000000000000  w   D  *UND*	0000000000000000  Base        _ITM_deregisterTMCloneTable
+0000000000000000      DF *UND*	0000000000000000 (GCC_3.0)    _Unwind_Resume
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) mmap
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTISt16invalid_argument
+0000000000000000      DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_guard_acquire
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.34) pthread_create
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4) _ZNSt9exceptionD2Ev
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTISt9exception
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.21) _ZNSt13runtime_errorC2EPKc
+0000000000000000  w   D  *UND*	0000000000000000  Base        __gmon_start__
+0000000000000000      DF *UND*	0000000000000000 (GLIBCXX_3.4.21) _ZNSt16invalid_argumentC1EPKc
+0000000000000000  w   DF *UND*	0000000000000000 (CXXABI_1.3) __cxa_pure_virtual
+0000000000000000  w   D  *UND*	0000000000000000  Base        _ITM_registerTMCloneTable
+0000000000000000  w   D  *UND*	0000000000000000  Base        __RML_close_factory
+0000000000000000      DF *UND*	0000000000000000 (GLIBC_2.2.5) fwrite
+0000000000000000      DO *UND*	0000000000000000 (GLIBCXX_3.4) _ZTISt13runtime_error
+0000000000012b40 g    DF .text	0000000000000060  Base        _ZN3tbb6detail2r126allocate_bounded_queue_repEm
+0000000000022980 g    DF .text	00000000000002ae  Base        _ZN3tbb6detail2r117parallel_pipelineERNS0_2d118task_group_contextEmRKNS2_11filter_nodeE
+000000000002a0c0 g    DF .text	0000000000000016  Base        _ZN3tbb6detail2r116execute_and_waitERNS0_2d14taskERNS2_18task_group_contextERNS2_12wait_contextES6_
+0000000000024320 g    DF .text	00000000000001be  Base        _ZN3tbb6detail2r114notify_waitersEm
+000000000001ed00 g    DF .text	0000000000000110  Base        _ZN3tbb6detail2r114itt_task_beginENS0_2d115itt_domain_enumEPvyS4_yNS0_2d021string_resource_indexE
+00000000000382a0 g    DO .data.rel.ro	0000000000000018  Base        _ZTIN3tbb6detail2r112missing_waitE
+0000000000016190 g    DF .text	0000000000000076  Base        _ZN3tbb6detail2r120isolate_within_arenaERNS0_2d113delegate_baseEl
+0000000000015790 g    DF .text	000000000000000e  Base        _ZN3tbb6detail2r17enqueueERNS0_2d14taskEPNS2_15task_arena_baseE
+0000000000024620 g    DF .text	000000000000025e  Base        _ZN3tbb6detail2r17acquireERNS0_2d116queuing_rw_mutexERNS3_11scoped_lockEb
+0000000000015560 g    DF .text	0000000000000072  Base        _ZN3tbb6detail2r14waitERNS0_2d115task_arena_baseE
+0000000000011020 g    DF .text	0000000000000026  Base        _ZN3tbb6detail2r128abort_bounded_queue_monitorsEPNS1_18concurrent_monitorE
+0000000000025950 g    DF .text	0000000000000040  Base        _ZN3tbb6detail2r110deallocateERNS0_2d117small_object_poolEPvmRKNS2_14execution_dataE
+0000000000024c30 g    DF .text	000000000000038f  Base        _ZN3tbb6detail2r117upgrade_to_writerERNS0_2d116queuing_rw_mutex11scoped_lockE
+00000000000248f0 g    DF .text	0000000000000333  Base        _ZN3tbb6detail2r17releaseERNS0_2d116queuing_rw_mutex11scoped_lockE
+000000000000fed0 g    DF .text	000000000000003f  Base        _ZN3tbb6detail2r117is_tbbmalloc_usedEv
+00000000000245c0 g    DF .text	000000000000000d  Base        _ZN3tbb6detail2r128is_group_execution_cancelledERNS0_2d118task_group_contextE
+000000000001fdc0 g    DF .text	00000000000003bd  Base        _ZN3tbb6detail2r17observeERNS0_2d123task_scheduler_observerEb
+0000000000027ba0 g    DF .text	00000000000003c3  Base        _ZN3tbb6detail2r16submitERNS0_2d14taskERNS2_18task_group_contextEPNS1_5arenaEm
+0000000000024200 g    DF .text	00000000000000af  Base        _ZN3tbb6detail2r118try_acquire_readerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockE
+0000000000011290 g    DF .text	000000000000007c  Base        _ZN3tbb6detail2r124numa_default_concurrencyEi
+0000000000025700 g    DF .text	00000000000000b1  Base        _ZN3tbb6detail2r18allocateERPNS0_2d117small_object_poolEm
+0000000000018f40 g    DF .text	00000000000000f2  Base        _ZN3tbb6detail2r117assertion_failureEPKciS3_S3_
+0000000000013000 g    DF .text	000000000000048d  Base        _ZN3tbb6detail2r126wait_bounded_queue_monitorEPNS1_18concurrent_monitorEmlRNS0_2d113delegate_baseE
+000000000000f810 g    DF .text	00000000000001e1  Base        _ZN3tbb6detail2r117notify_by_addressEPvm
+0000000000011240 g    DF .text	0000000000000018  Base        _ZN3tbb6detail2r115numa_node_countEv
+0000000000011b80 g    DF .text	0000000000000504  Base        _ZN3tbb6detail2r115wait_on_addressEPvRNS0_2d113delegate_baseEm
+0000000000011050 g    DF .text	00000000000001e1  Base        _ZN3tbb6detail2r128notify_bounded_queue_monitorEPNS1_18concurrent_monitorEmm
+000000000001ee10 g    DF .text	0000000000000056  Base        _ZN3tbb6detail2r112itt_task_endENS0_2d115itt_domain_enumE
+0000000000038288 g    DO .data.rel.ro	0000000000000018  Base        _ZTIN3tbb6detail2r111unsafe_waitE
+000000000001f1a0 g    DF .text	0000000000000042  Base        _ZN3tbb6detail2r17releaseERNS0_2d19rtm_mutex11scoped_lockE
+0000000000026b40 g    DF .text	000000000000015a  Base        _ZN3tbb6detail2r122cancel_group_executionERNS0_2d118task_group_contextE
+000000000002b590 g    DF .text	00000000000000c5  Base        _ZN3tbb6detail2r17destroyERNS0_2d118task_group_contextE
+0000000000011310 g    DF .text	0000000000000018  Base        _ZN3tbb6detail2r115core_type_countEl
+0000000000016180 g    DF .text	0000000000000009  Base        _ZN3tbb6detail2r17executeERNS0_2d115task_arena_baseERNS2_13delegate_baseE
+00000000000382b8 g    DO .data.rel.ro	0000000000000018  Base        _ZTIN3tbb6detail2r110user_abortE
+00000000000114d0 g    DF .text	00000000000001a7  Base        _ZN3tbb6detail2r131constraints_default_concurrencyERKNS0_2d111constraintsEl
+000000000001e860 g    DF .text	0000000000000021  Base        _ZN3tbb6detail2r115create_itt_syncEPvPKcS4_
+0000000000012be0 g    DF .text	00000000000002ad  Base        _ZN3tbb6detail2r16createERNS0_2d114global_controlE
+00000000000267c0 g    DF .text	000000000000005c  Base        _ZN3tbb6detail2r121current_suspend_pointEv
+00000000000385c0 g    DO .data.rel.ro	0000000000000028  Base        _ZTVN3tbb6detail2r112missing_waitE
+0000000000038598 g    DO .data.rel.ro	0000000000000028  Base        _ZTVN3tbb6detail2r110user_abortE
+000000000001ea90 g    DF .text	00000000000000db  Base        _ZN3tbb6detail2r120itt_metadata_str_addENS0_2d115itt_domain_enumEPvyNS0_2d021string_resource_indexEPKc
+0000000000024600 g    DF .text	000000000000000a  Base        TBB_runtime_interface_version
+0000000000010fe0 g    DF .text	000000000000003d  Base        _ZN3tbb6detail2r128deallocate_bounded_queue_repEPhm
+000000000002ad90 g    DF .text	0000000000000081  Base        _ZN3tbb6detail2r110initializeERNS0_2d118task_group_contextE
+000000000000fe90 g    DF .text	000000000000000a  Base        _ZN3tbb6detail2r115cache_line_sizeEv
+0000000000025990 g    DF .text	000000000000008a  Base        _ZN3tbb6detail2r110deallocateERNS0_2d117small_object_poolEPvm
+0000000000011330 g    DF .text	0000000000000028  Base        _ZN3tbb6detail2r122fill_core_type_indicesEPil
+00000000000245d0 g    DF .text	0000000000000029  Base        _ZN3tbb6detail2r119capture_fp_settingsERNS0_2d118task_group_contextE
+00000000000278d0 g    DF .text	00000000000000c8  Base        _ZN3tbb6detail2r15spawnERNS0_2d14taskERNS2_18task_group_contextE
+0000000000010460 g    DF .text	000000000000007b  Base        _ZN3tbb6detail2r16attachERNS0_2d115task_arena_baseE
+0000000000011360 g    DF .text	000000000000000a  Base        _ZN3tbb6detail2r128constraints_threads_per_coreERKNS0_2d111constraintsEl
+0000000000012e90 g    DF .text	0000000000000043  Base        _ZN3tbb6detail2r13getERNS0_2d121task_scheduler_handleE
+0000000000024140 g    DF .text	0000000000000049  Base        _ZN3tbb6detail2r19downgradeERNS0_2d112rtm_rw_mutex11scoped_lockE
+0000000000011990 g    DF .text	0000000000000044  Base        _ZN3tbb6detail2r127global_control_active_valueEi
+0000000000011680 g    DF .text	00000000000000dd  Base        _ZN3tbb6detail2r115max_concurrencyEPKNS0_2d115task_arena_baseE
+0000000000011a00 g    DF .text	00000000000000f0  Base        _ZN3tbb6detail2r115throw_exceptionENS0_2d012exception_idE
+0000000000025cd0 g    DF .text	00000000000002ec  Base        _ZN3tbb6detail2r16resumeEPNS1_18suspend_point_typeE
+000000000001eb70 g    DF .text	00000000000000bd  Base        _ZN3tbb6detail2r120itt_metadata_ptr_addENS0_2d115itt_domain_enumEPvyNS0_2d021string_resource_indexES4_
+000000000001e900 g    DF .text	0000000000000019  Base        _ZN3tbb6detail2r117itt_set_sync_nameEPvPKc
+0000000000013490 g    DF .text	0000000000000383  Base        _ZN3tbb6detail2r18finalizeERNS0_2d121task_scheduler_handleEl
+00000000000257c0 g    DF .text	0000000000000098  Base        _ZN3tbb6detail2r18allocateERPNS0_2d117small_object_poolEmRKNS2_14execution_dataE
+000000000000fa00 g    DF .text	0000000000000188  Base        _ZN3tbb6detail2r121notify_by_address_oneEPv
+0000000000024610 g    DF .text	000000000000000c  Base        TBB_runtime_version
+0000000000023f80 g    DF .text	00000000000001b6  Base        _ZN3tbb6detail2r17upgradeERNS0_2d112rtm_rw_mutex11scoped_lockE
+000000000001e920 g    DF .text	0000000000000162  Base        _ZN3tbb6detail2r119itt_make_task_groupENS0_2d115itt_domain_enumEPvyS4_yNS0_2d021string_resource_indexE
+00000000000250b0 g    DF .text	0000000000000029  Base        _ZN3tbb6detail2r19constructERNS0_2d116queuing_rw_mutexE
+00000000000128e0 g    DF .text	000000000000006a  Base        _ZN3tbb6detail2r122cache_aligned_allocateEm
+0000000000024fd0 g    DF .text	00000000000000da  Base        _ZN3tbb6detail2r119downgrade_to_readerERNS0_2d116queuing_rw_mutex11scoped_lockE
+0000000000023e30 g    DF .text	0000000000000142  Base        _ZN3tbb6detail2r114acquire_readerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockEb
+000000000001ee70 g    DF .text	00000000000000d1  Base        _ZN3tbb6detail2r116itt_region_beginENS0_2d115itt_domain_enumEPvyS4_yNS0_2d021string_resource_indexE
+000000000000feb0 g    DF .text	0000000000000011  Base        _ZN3tbb6detail2r117deallocate_memoryEPv
+0000000000024880 g    DF .text	000000000000006a  Base        _ZN3tbb6detail2r111try_acquireERNS0_2d116queuing_rw_mutexERNS3_11scoped_lockEb
+000000000001f110 g    DF .text	000000000000008e  Base        _ZN3tbb6detail2r111try_acquireERNS0_2d19rtm_mutexERNS3_11scoped_lockE
+000000000001efe0 g    DF .text	0000000000000122  Base        _ZN3tbb6detail2r17acquireERNS0_2d19rtm_mutexERNS3_11scoped_lockEb
+00000000000242b0 g    DF .text	000000000000006f  Base        _ZN3tbb6detail2r17releaseERNS0_2d112rtm_rw_mutex11scoped_lockE
+0000000000038570 g    DO .data.rel.ro	0000000000000028  Base        _ZTVN3tbb6detail2r114bad_last_allocE
+000000000000fb90 g    DF .text	00000000000001c9  Base        _ZN3tbb6detail2r121notify_by_address_allEPv
+0000000000012ba0 g    DF .text	0000000000000039  Base        _ZN3tbb6detail2r115allocate_memoryEm
+0000000000024fc0 g    DF .text	000000000000000e  Base        _ZN3tbb6detail2r19is_writerERKNS0_2d116queuing_rw_mutex11scoped_lockE
+000000000002a0e0 g    DF .text	0000000000000011  Base        _ZN3tbb6detail2r14waitERNS0_2d112wait_contextERNS2_18task_group_contextE
+000000000001ef50 g    DF .text	000000000000008a  Base        _ZN3tbb6detail2r114itt_region_endENS0_2d115itt_domain_enumEPvy
+00000000000244e0 g    DF .text	000000000000003d  Base        _ZN3tbb6detail2r114execution_slotEPKNS0_2d114execution_dataE
+00000000000103b0 g    DF .text	00000000000000a3  Base        _ZN3tbb6detail2r19terminateERNS0_2d115task_arena_baseE
+000000000002b660 g    DF .text	0000000000000049  Base        _ZN3tbb6detail2r15resetERNS0_2d118task_group_contextE
+00000000000157a0 g    DF .text	0000000000000009  Base        _ZN3tbb6detail2r17enqueueERNS0_2d14taskERNS2_18task_group_contextEPNS2_15task_arena_baseE
+0000000000024520 g    DF .text	0000000000000042  Base        _ZN3tbb6detail2r115current_contextEv
+000000000001e890 g    DF .text	000000000000006e  Base        _ZN3tbb6detail2r115call_itt_notifyEiPv
+0000000000011260 g    DF .text	0000000000000028  Base        _ZN3tbb6detail2r117fill_numa_indicesEPi
+0000000000026a00 g    DF .text	0000000000000077  Base        _ZN3tbb6detail2r17suspendEPFvPvPNS1_18suspend_point_typeEES2_
+00000000000279a0 g    DF .text	00000000000001f2  Base        _ZN3tbb6detail2r15spawnERNS0_2d14taskERNS2_18task_group_contextEt
+000000000001f340 g    DF .text	000000000000000c  Base        _ZN3tbb6detail2r114acquire_writerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockEb
+0000000000024190 g    DF .text	000000000000006d  Base        _ZN3tbb6detail2r118try_acquire_writerERNS0_2d112rtm_rw_mutexERNS3_11scoped_lockE
+000000000000fea0 g    DF .text	000000000000000a  Base        _ZN3tbb6detail2r124cache_aligned_deallocateEPv
+000000000001ec30 g    DF .text	00000000000000c8  Base        _ZN3tbb6detail2r116itt_relation_addENS0_2d115itt_domain_enumEPvyNS0_2d012itt_relationES4_y
+00000000000382d0 g    DO .data.rel.ro	0000000000000018  Base        _ZTIN3tbb6detail2r114bad_last_allocE
+0000000000011760 g    DF .text	0000000000000221  Base        _ZN3tbb6detail2r17destroyERNS0_2d114global_controlE
+000000000001a1e0 g    DF .text	0000000000000024  Base        _ZN3tbb6detail2r116set_end_of_inputERNS0_2d111base_filterE
+0000000000015340 g    DF .text	000000000000021c  Base        _ZN3tbb6detail2r110initializeERNS0_2d115task_arena_baseE
+
+

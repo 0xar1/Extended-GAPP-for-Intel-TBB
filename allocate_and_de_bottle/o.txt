@@ -1,0 +1,24 @@
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20700 close(3)                          = 0
+20705 ????( <unfinished ...>
+20704 +++ exited with 0 +++
+20709 +++ exited with 0 +++
+20708 +++ exited with 0 +++
+20707 +++ exited with 0 +++
+20706 +++ exited with 0 +++
+20705 +++ exited with 0 +++
+20703 +++ exited with 0 +++
+20700 +++ exited with 0 +++
