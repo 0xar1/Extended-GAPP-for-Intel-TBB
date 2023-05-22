@@ -34,8 +34,8 @@ int tbb_thread_pool_exit(struct pt_regs *regs) {
 b = BPF(text=prog)
 
 # Attach the eBPF program to the TBB thread pool enter and exit functions
-b.attach_uprobe(name="/usr/local/lib/libtbb.so", sym="_ZN3tbb6detail2r17observeERNS0_2d123task_scheduler_observerEb", fn_name="tbb_thread_pool_enter")
-b.attach_uprobe(name="/usr/local/lib/libtbb.so", sym="_ZN3tbb6detail2r17observeERNS0_2d123task_scheduler_observerEb", fn_name="tbb_thread_pool_exit")
+b.attach_uprobe(name="tbb", sym="_ZN3tbb6detail2r17observeERNS0_2d123task_scheduler_observerEb", fn_name="tbb_thread_pool_enter")
+b.attach_uprobe(name="tbb", sym="_ZN3tbb6detail2r17observeERNS0_2d123task_scheduler_observerEb", fn_name="tbb_thread_pool_exit")
 # Define the ctypes struct for the thread data
 class TbbThreadData(ct.Structure):
     _fields_ = [("count", ct.c_ulonglong)]

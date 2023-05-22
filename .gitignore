@@ -1,2 +1,5 @@
 
 TaskProf/
+allocate_and_de_bottle/perf.data
+thread_pool_detection/perf.data
+thread_pool_detection/perf.data.old
